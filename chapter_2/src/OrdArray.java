@@ -28,7 +28,29 @@ public class OrdArray {
     }
 
     public void insert(long value){
+        int i;
+        for(i = 0;i < nElems;++i){
+            if(value < a[i]){
+                break;
+            }
+        }
+        for(int k = nElems-1;k > i;k--){
+            a[k] = a[k - 1];
+        }
+        a[i] = value;
+        nElems++;
+    }
 
+    public boolean delete(long value){
+        int j = find(value);
+        if(j == nElems) return false;
+
+        for(int i = j;i < nElems - 1;++i){
+            a[i] = a[i + 1];
+        }
+
+        --nElems;
+        return true;
     }
 
     public void display(){
