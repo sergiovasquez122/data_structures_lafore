@@ -25,7 +25,7 @@ public class ClassDataApp {
             System.out.print("Found");
             found.displayPerson();
         } else {
-            System.out.println("Can't find " + search_key);
+            System.out.println("Can't fijnd " + search_key);
         }
 
         System.out.println("Deleting Smith, Yee, and Croswell");
