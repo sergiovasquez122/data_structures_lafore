@@ -17,5 +17,8 @@ public class thermostat {
 
         therm1 = new thermostat(); // create two objects and stores references to them
         therm2 = new thermostat();
+
+        therm1.furnace_off();
+        therm2.furnace_on();
     }
 }
