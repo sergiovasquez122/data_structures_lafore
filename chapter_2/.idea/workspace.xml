@@ -38,11 +38,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LowArrayApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LowArrayApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LowArrayApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+            <state relative-caret-position="339">
+              <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HighArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HighArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+              <folding>
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HighArrayApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HighArrayApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -56,6 +78,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find />
+    </findStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -63,6 +90,8 @@
         <option value="$PROJECT_DIR$/src/lowArray.java" />
         <option value="$PROJECT_DIR$/src/LowArray.java" />
         <option value="$PROJECT_DIR$/src/LowArrayApp.java" />
+        <option value="$PROJECT_DIR$/src/HighArrayApp.java" />
+        <option value="$PROJECT_DIR$/src/HighArray.java" />
       </list>
     </option>
   </component>
@@ -116,9 +145,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LowArrayApp">
+  <component name="RunManager" selected="Application.HighArrayApp">
     <configuration name="ArrayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayApp" />
+      <module name="chapter_2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="HighArrayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HighArrayApp" />
       <module name="chapter_2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -171,9 +205,11 @@
     <list>
       <item itemvalue="Application.ArrayApp" />
       <item itemvalue="Application.LowArrayApp" />
+      <item itemvalue="Application.HighArrayApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HighArrayApp" />
         <item itemvalue="Application.LowArrayApp" />
         <item itemvalue="Application.ArrayApp" />
       </list>
@@ -205,7 +241,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32937685" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32868218" />
       <window_info anchor="bottom" id="Terminal" visible="true" weight="0.34418604" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
@@ -235,13 +271,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArrayApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LowArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -257,10 +286,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LowArrayApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        <state relative-caret-position="339">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HighArrayApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HighArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+          <folding>
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
