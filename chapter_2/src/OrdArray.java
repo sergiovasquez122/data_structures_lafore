@@ -34,7 +34,7 @@ public class OrdArray {
                 break;
             }
         }
-        for(int k = nElems-1;k > i;k--){
+        for(int k = nElems;k > i;k--){
             a[k] = a[k - 1];
         }
         a[i] = value;
@@ -45,7 +45,7 @@ public class OrdArray {
         int j = find(value);
         if(j == nElems) return false;
 
-        for(int i = j;i < nElems - 1;++i){
+        for(int i = j;i < nElems;++i){
             a[i] = a[i + 1];
         }
 
