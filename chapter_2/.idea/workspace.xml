@@ -47,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HighArray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HighArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HighArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="270">
               <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
               <folding>
                 <element signature="e#709#710#0" expanded="true" />
@@ -63,8 +63,21 @@
       <file leaf-file-name="HighArrayApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HighArrayApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="222">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrdArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/OrdArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+              <folding>
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,8 +103,9 @@
         <option value="$PROJECT_DIR$/src/lowArray.java" />
         <option value="$PROJECT_DIR$/src/LowArray.java" />
         <option value="$PROJECT_DIR$/src/LowArrayApp.java" />
-        <option value="$PROJECT_DIR$/src/HighArrayApp.java" />
         <option value="$PROJECT_DIR$/src/HighArray.java" />
+        <option value="$PROJECT_DIR$/src/HighArrayApp.java" />
+        <option value="$PROJECT_DIR$/src/OrdArray.java" />
       </list>
     </option>
   </component>
@@ -300,20 +314,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HighArrayApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HighArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="270">
           <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
           <folding>
             <element signature="e#709#710#0" expanded="true" />
             <element signature="e#730#731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HighArrayApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OrdArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
           </folding>
         </state>
       </provider>
