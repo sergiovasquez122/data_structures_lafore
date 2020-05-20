@@ -69,12 +69,16 @@ public class OrdArray {
      * @return the destination array
      */
     public OrdArray merge(OrdArray rhs){
-        int destination_size = size() + rhs.size() - 1;
+        int destination_size = size() + rhs.size();
         OrdArray destination = new OrdArray(destination_size);
         int left_index = size() - 1;
         int right_index = rhs.size() - 1;
-        for(int i = destination_size; i >= 0; --i){
-            destination.insert(a[left_index] < rhs.a[right_index] ? a[right_index--]  : a[left_index--]);
+        for(int i = destination_size - 1; i >= 0; --i){
+            if(left_index >= 0) {
+                destination.insert(a[left_index] < rhs.a[right_index] ? rhs.a[right_index--] : a[left_index--]);
+            } else {
+                destination.insert(rhs.a[right_index--]);
+            }
         }
         return destination;
     }
