@@ -70,8 +70,22 @@ public class OrdArray {
         return true;
     }
 
-    public boolean insert_bin_search(long value){
-        return false;
+    public int insert_bin_search(long key){
+        int idx = -1;
+        int low  = 0;
+        int hi = size() - 1;
+        while(low <= hi){
+            int mid = (low + hi) / 2;
+            if(a[mid] == key){
+                return mid;
+            } else if(a[mid] < key){
+                hi = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+            idx = mid;
+        }
+        return idx;
     }
 
     public void display(){
