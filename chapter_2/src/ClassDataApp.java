@@ -2,7 +2,6 @@ public class ClassDataApp {
     public static void main(String[] args) {
         int max_size = 100;
         ClassDataArray arr;
-        arr = new ClassDataArray(max_size);
 
         arr = new ClassDataArray(max_size);
 
@@ -25,7 +24,7 @@ public class ClassDataApp {
             System.out.print("Found");
             found.displayPerson();
         } else {
-            System.out.println("Can't fijnd " + search_key);
+            System.out.println("Can't find " + search_key);
         }
 
         System.out.println("Deleting Smith, Yee, and Croswell");
@@ -34,7 +33,5 @@ public class ClassDataApp {
         arr.delete("Creswell");
 
         arr.displayA();
-
-
     }
 }
