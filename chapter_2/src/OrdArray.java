@@ -73,7 +73,9 @@ public class OrdArray {
         OrdArray destination = new OrdArray(destination_size);
         int left_index = size() - 1;
         int right_index = rhs.size() - 1;
-
+        for(int i = destination_size; i >= 0; --i){
+            destination.insert(a[left_index] < rhs.a[right_index] ? a[right_index--]  : a[left_index--]);
+        }
         return destination;
     }
 }
