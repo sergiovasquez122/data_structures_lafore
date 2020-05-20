@@ -41,11 +41,6 @@ public class OrdArray {
         nElems++;
     }
 
-    /**
-     * exercise 2.4 add implementations of insert and delete using binary search
-     * @param value
-     * @return true if item was found
-     */
     public boolean delete(long value){
         int j = find(value);
         if(j == nElems) return false;
@@ -59,15 +54,23 @@ public class OrdArray {
     }
 
     /**
-     * exercise 2.4 insert method
-     * @param value the value to insert
-     * @return true if the element was found
+     * exercise 2.4 add implementations of insert and delete using binary search
+     * @param value
+     * @return true if item was found
      */
     public boolean delete_bin_search(long value){
-        return false;
+        int idx = find(value);
+        if(idx == -1){
+            return false;
+        }
+
+        for(int i = idx;i < nElems;i++){
+            a[i] = a[i + 1];
+        }
+        return true;
     }
 
-    public boolean delete_insert(long value){
+    public boolean insert_bin_search(long value){
         return false;
     }
 
