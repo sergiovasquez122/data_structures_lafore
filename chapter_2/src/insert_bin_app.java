@@ -31,5 +31,9 @@ public class insert_bin_app {
         arr.delete(99);
 
         arr.display();
+
+        arr.insert(99);
+        arr.insert(0);
+        arr.display();
     }
 }
