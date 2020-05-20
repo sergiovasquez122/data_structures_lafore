@@ -82,4 +82,26 @@ public class HighArray {
         delete(ret);
         return ret;
     }
+
+    /**
+     * exercise 2.6 Write a noDups() method for the HighArray class
+     * of the highArray program.
+     */
+    public void noDups(){
+        for(int i = 0; i < nElems;++i){
+            for(int j = i + 1;j < nElems;++j){
+                if(a[i] == a[j]){
+                    a[j] = Long.MIN_VALUE;
+                }
+            }
+        }
+
+        int write_idx = 0;
+        for(int i = 0;i < nElems;++i){
+            if(a[i] != Long.MIN_VALUE){
+                a[write_idx++] = a[i];
+            }
+        }
+        nElems = write_idx;
+    }
 }
