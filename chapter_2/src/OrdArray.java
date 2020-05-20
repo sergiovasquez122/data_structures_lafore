@@ -69,7 +69,10 @@ public class OrdArray {
      * @return the destination array
      */
     public OrdArray merge(OrdArray rhs){
-        OrdArray destination = new OrdArray(size() + rhs.size());
+        int destination_size = size() + rhs.size() - 1;
+        OrdArray destination = new OrdArray(destination_size);
+        int left_index = size() - 1;
+        int right_index = rhs.size() - 1;
 
         return destination;
     }
