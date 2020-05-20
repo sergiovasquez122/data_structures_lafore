@@ -50,8 +50,8 @@
       <file leaf-file-name="exercise_2_6_app.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/exercise_2_6_app.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+            <state relative-caret-position="295">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
@@ -151,11 +151,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="11" />
-    <option name="width" value="653" />
-    <option name="height" value="730" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="651" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -201,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.exercise_2_6_app">
+  <component name="RunManager" selected="Application.OrderedApp">
     <configuration name="ClassDataApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ClassDataApp" />
       <module name="chapter_2" />
@@ -277,10 +277,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderedApp" />
         <item itemvalue="Application.exercise_2_6_app" />
         <item itemvalue="Application.exercise_2_3" />
         <item itemvalue="Application.ClassDataApp" />
-        <item itemvalue="Application.OrderedApp" />
         <item itemvalue="Application.HighArrayApp" />
       </list>
     </recent_temporary>
@@ -299,7 +299,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
+    <frame x="65" y="24" width="651" height="744" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -311,11 +311,11 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32789317" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32937685" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32789317" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.34418604" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15219124" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31674957" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24875621" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24875621" />
@@ -445,8 +445,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercise_2_6_app.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        <state relative-caret-position="295">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>

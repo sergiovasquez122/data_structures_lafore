@@ -59,4 +59,18 @@ public class OrdArray {
         }
         System.out.println();
     }
+
+     /**
+      * Exercise 2.5
+     * Add a merge() method to the OrdArray class so that
+     * you can merge two ordered source arrays into an
+     * ordered destination array
+     * @param rhs the other array to be merged
+     * @return the destination array
+     */
+    public OrdArray merge(OrdArray rhs){
+        OrdArray destination = new OrdArray(size() + rhs.size());
+
+        return destination;
+    }
 }
