@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="477fb630-76ab-48a5-bfda-1d4c3f43e5b5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/experiment_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chapter_1_code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_1_code/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chapter_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/experiment_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/experiment_2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,11 +37,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="experiment_2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="experiment_2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/experiment_2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="45">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="experiment_3.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/experiment_3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -101,6 +110,7 @@
         <option value="$PROJECT_DIR$/src/BubbleSortApp.java" />
         <option value="$PROJECT_DIR$/src/experiment_1.java" />
         <option value="$PROJECT_DIR$/src/experiment_2.java" />
+        <option value="$PROJECT_DIR$/src/experiment_3.java" />
       </list>
     </option>
   </component>
@@ -155,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.experiment_2">
+  <component name="RunManager" selected="Application.experiment_3">
     <configuration name="InsertSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InsertSortApp" />
       <module name="chapter_3" />
@@ -163,11 +173,6 @@
     </configuration>
     <configuration name="ObjectSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ObjectSortApp" />
-      <module name="chapter_3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="SelectSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SelectSortApp" />
       <module name="chapter_3" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -181,6 +186,11 @@
     </configuration>
     <configuration name="experiment_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="experiment_2" />
+      <module name="chapter_3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="experiment_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="experiment_3" />
       <module name="chapter_3" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -223,19 +233,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SelectSortApp" />
       <item itemvalue="Application.InsertSortApp" />
       <item itemvalue="Application.ObjectSortApp" />
       <item itemvalue="Application.experiment_1" />
       <item itemvalue="Application.experiment_2" />
+      <item itemvalue="Application.experiment_3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.experiment_3" />
         <item itemvalue="Application.experiment_2" />
         <item itemvalue="Application.experiment_1" />
         <item itemvalue="Application.ObjectSortApp" />
         <item itemvalue="Application.InsertSortApp" />
-        <item itemvalue="Application.SelectSortApp" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +267,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17449139" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17449139" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32886904" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -265,7 +275,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32738096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49843505" visible="true" weight="0.32886904" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49843505" visible="true" weight="0.32886904" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -427,8 +437,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/experiment_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="45">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/experiment_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
         </state>
       </provider>
     </entry>
