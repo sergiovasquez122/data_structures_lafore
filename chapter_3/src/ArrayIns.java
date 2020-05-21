@@ -43,6 +43,15 @@ public class ArrayIns {
         nElems = write_idx;
     }
 
+    /**
+     * exercise 3.6
+     * Write insertion sort so that is also removes
+     * duplicates from the array
+     */
+    public void insertionSort_ex3_5(){
+
+    }
+
     public void insertionSort(){
         int in, out;
         for(out = 1; out < nElems;++out){
