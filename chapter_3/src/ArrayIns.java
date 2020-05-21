@@ -34,7 +34,13 @@ public class ArrayIns {
      * altering the order. this algorithm must run in o(n) time
      */
     public void nodups(){
-
+        int write_idx = 1;
+        for(int i  = write_idx;i < nElems;++i){
+            if(a[i] != a[i - 1]) {
+                a[write_idx++] = a[i];
+            }
+        }
+        nElems = write_idx;
     }
 
     public void insertionSort(){
