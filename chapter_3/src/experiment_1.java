@@ -11,12 +11,25 @@ public class experiment_1 {
     public static void main(String[] args) {
         int max_size = 100000;
         ArrayBub arrayBub = new ArrayBub(max_size);
+        ArraySel arraySel = new ArraySel(max_size);
+        ArrayIns arrayIns = new ArrayIns(max_size);
+
         for(int i = 0;i < max_size;++i){
             long n = (long) (java.lang.Math.random() * (max_size  - 1));
             arrayBub.insert(n);
+            arraySel.insert(n);
+            arrayIns.insert(n);
         }
         Stopwatch watch = new Stopwatch();
         arrayBub.bubbleSort();
-        System.out.println("Elasped time: " + watch.elapsedTime());
+        System.out.println("Elasped time for bubble sort: " + watch.elapsedTime());
+
+        watch = new Stopwatch();
+        arraySel.selectionSort();
+        System.out.println("Elasped time for selection sort: " + watch.elapsedTime());
+
+        watch = new Stopwatch();
+        arrayIns.insertionSort();
+        System.out.println("Elasped time for insertion sort: " + watch.elapsedTime());
     }
 }
