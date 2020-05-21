@@ -19,6 +19,15 @@ public class ArrayIns {
         System.out.println();
     }
 
+    /**
+     * exercise 3.2 add a method called median() to the ArrayIns class.This method
+     * should return the median value in the array. Assume that the array was already sorted;
+     * @return the median of the array
+     */
+    public long median(){
+        return nElems % 2 == 1 ? a[nElems / 2]  : (a[nElems / 2]  + a[nElems / 2 + 1]) / 2;
+    }
+
     public void insertionSort(){
         int in, out;
         for(out = 1; out < nElems;++out){
