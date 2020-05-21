@@ -1,3 +1,5 @@
+import edu.princeton.cs.algs4.Stopwatch;
+
 /**
  * create a large array and fill that array with data.
  * try inserting 10,000 items. Display the data before and after the sort. You'll
@@ -13,5 +15,8 @@ public class experiment_1 {
             long n = (long) (java.lang.Math.random() * (max_size  - 1));
             arrayBub.insert(n);
         }
+        Stopwatch watch = new Stopwatch();
+        arrayBub.bubbleSort();
+        System.out.println("Elasped time: " + watch.elapsedTime());
     }
 }
