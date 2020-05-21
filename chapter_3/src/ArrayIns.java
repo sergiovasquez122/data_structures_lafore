@@ -28,6 +28,15 @@ public class ArrayIns {
         return nElems % 2 == 1 ? a[nElems / 2]  : (a[nElems / 2]  + a[nElems / 2 + 1]) / 2;
     }
 
+    /**
+     * exercise 3.3
+     * add a method called noDups() that removes duplicates from a previously sorted array without
+     * altering the order. this algorithm must run in o(n) time
+     */
+    public void nodups(){
+
+    }
+
     public void insertionSort(){
         int in, out;
         for(out = 1; out < nElems;++out){
