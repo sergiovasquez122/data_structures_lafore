@@ -3,16 +3,16 @@ public class BubbleSortApp {
         int max_size = 100;
         ArrayBub arr = new ArrayBub(max_size);
 
-        arr.inser(77);
-        arr.inser(99);
-        arr.inser(44);
-        arr.inser(55);
-        arr.inser(22);
-        arr.inser(88);
-        arr.inser(11);
-        arr.inser(0);
-        arr.inser(66);
-        arr.inser(33);
+        arr.insert(77);
+        arr.insert(99);
+        arr.insert(44);
+        arr.insert(55);
+        arr.insert(22);
+        arr.insert(88);
+        arr.insert(11);
+        arr.insert(0);
+        arr.insert(66);
+        arr.insert(33);
         arr.display();
 
         arr.bubbleSort();

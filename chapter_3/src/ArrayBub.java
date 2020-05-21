@@ -7,7 +7,7 @@ public class ArrayBub {
         nElems = 0;
     }
 
-    public void inser(long value){
+    public void insert(long value){
         a[nElems] = value;
         nElems++;
     }
