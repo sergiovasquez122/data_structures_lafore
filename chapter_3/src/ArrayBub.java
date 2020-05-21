@@ -22,7 +22,7 @@ public class ArrayBub {
     public void bubbleSort(){
         for(int out = nElems - 1;out > 1;out--){
             for(int in = 0; in < out;in++){
-                if(a[in] < a[in + 1]){
+                if(a[in] > a[in + 1]){
                     swap(in, in + 1);
                 }
             }
