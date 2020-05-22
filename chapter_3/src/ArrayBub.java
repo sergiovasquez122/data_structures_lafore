@@ -12,6 +12,14 @@ public class ArrayBub {
         nElems++;
     }
 
+
+    /**
+     * exercise 3.1
+     */
+    public void bubble_sort_mod(){
+
+    }
+
     public void display(){
         for(int j = 0;j < nElems; ++j){
             System.out.print(a[j] + " ");
