@@ -53,6 +53,15 @@ public class ArrayIns {
         nodups();
     }
 
+    /**
+     * exercise 3.5 modify insertion sort
+     * so it counts the number of copies and the number of comparison
+     * it makes during a sort and display the total.
+     */
+    public void insertionSortCompare(){
+
+    }
+
     public void insertionSort(){
         int in, out;
         for(out = 1; out < nElems;++out){
