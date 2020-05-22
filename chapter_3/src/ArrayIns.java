@@ -48,8 +48,9 @@ public class ArrayIns {
      * Write insertion sort so that is also removes
      * duplicates from the array
      */
-    public void insertionSort_ex3_5(){
-
+    public void noDupsSort(){
+        insertionSort();
+        nodups();
     }
 
     public void insertionSort(){
