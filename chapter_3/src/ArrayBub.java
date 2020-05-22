@@ -20,6 +20,29 @@ public class ArrayBub {
 
     }
 
+    /**
+     * Exercise 3.4 implement an odd-even sort
+     */
+    public void oddEvenSort(){
+        boolean sorted = false;
+        while(!sorted){
+            sorted = true;
+            for(int  i = 1;i < nElems - 1;i += 2){
+                if(a[i] > a[i + 1]){
+                    sorted = false;
+                    swap(i, i + 1);
+                }
+            }
+
+            for(int i = 0; i < nElems - 1;i += 2){
+                if(a[i] > a[i + 1]){
+                    sorted = false;
+                    swap(i, i  + 1);
+                }
+            }
+        }
+    }
+
     public void display(){
         for(int j = 0;j < nElems; ++j){
             System.out.print(a[j] + " ");
