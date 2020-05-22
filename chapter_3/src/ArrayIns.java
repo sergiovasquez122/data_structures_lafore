@@ -67,9 +67,12 @@ public class ArrayIns {
                 if(temp <= a[inner - 1]){
                     a[inner] = a[inner - 1];
                     copies++;
+                    comparisons++;
                     --inner;
+                } else {
+                    comparisons++;
+                    break;
                 }
-                comparisons++;
             }
             a[inner] = temp;
         }
