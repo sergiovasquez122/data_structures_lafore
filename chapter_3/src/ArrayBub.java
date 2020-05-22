@@ -16,12 +16,6 @@ public class ArrayBub {
         nElems = 0;
     }
 
-    /**
-     * exercise 3.1
-     */
-    public void bubble_sort_mod(){
-
-    }
 
     /**
      * Exercise 3.4 implement an odd-even sort
@@ -51,6 +45,32 @@ public class ArrayBub {
             System.out.print(a[j] + " ");
         }
         System.out.println();
+    }
+
+    /**
+     * exercise 3.1
+     */
+    public void bubble_sort_mod(){
+        int left_boundary = 0;
+        int right_boundary = nElems - 1;
+
+        while(left_boundary < right_boundary){
+
+            for(int i = 0;i < right_boundary;++i){
+                if(a[i] > a[i + 1]){
+                    swap(i, i + 1);
+                }
+            }
+
+            --right_boundary;
+
+            for(int i = nElems - 1;i > left_boundary;--i){
+                if(a[i] < a[i - 1]){
+                    swap(i, i - 1);
+                }
+            }
+            ++left_boundary;
+        }
     }
 
     public void bubbleSort(){
