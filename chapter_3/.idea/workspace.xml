@@ -51,8 +51,8 @@
       <file leaf-file-name="ArrayBub.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ArrayBub.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+            <state relative-caret-position="255">
+              <caret line="94" selection-start-line="94" selection-end-line="94" />
               <folding>
                 <element signature="e#266#267#0" expanded="true" />
                 <element signature="e#292#293#0" expanded="true" />
@@ -167,11 +167,6 @@
             <path>
               <item name="chapter_3" type="b2602c69:ProjectViewProjectNode" />
               <item name="chapter_3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter_3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter_3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -299,7 +294,7 @@
     <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
     <layout>
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17449139" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17449139" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32886904" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -307,7 +302,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32738096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49843505" visible="true" weight="0.50446427" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49843505" visible="true" weight="0.50446427" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39880952" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -511,8 +506,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArrayBub.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+        <state relative-caret-position="255">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
           <folding>
             <element signature="e#266#267#0" expanded="true" />
             <element signature="e#292#293#0" expanded="true" />
