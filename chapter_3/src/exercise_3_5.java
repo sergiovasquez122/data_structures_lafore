@@ -11,6 +11,11 @@ public class exercise_3_5 {
             arrayIns.insert(i);
         }
 
+        // insert all items into unsorted order
+        for(int i = max_size - 1;i >= 0;--i){
+            arrayIns.insert(i);
+        }
+
         arrayIns.insertionSortCompare();
     }
 }

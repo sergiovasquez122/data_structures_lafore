@@ -19,6 +19,10 @@ public class ArrayIns {
         System.out.println();
     }
 
+    public void clear(){
+        nElems = 0;
+    }
+
     /**
      * exercise 3.2 add a method called median() to the ArrayIns class.This method
      * should return the median value in the array. Assume that the array was already sorted;
