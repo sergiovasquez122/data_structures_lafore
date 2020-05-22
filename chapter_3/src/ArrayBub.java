@@ -12,6 +12,9 @@ public class ArrayBub {
         nElems++;
     }
 
+    public void clear(){
+        nElems = 0;
+    }
 
     /**
      * exercise 3.1
