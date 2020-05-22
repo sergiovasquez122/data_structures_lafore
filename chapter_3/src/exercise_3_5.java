@@ -23,5 +23,14 @@ public class exercise_3_5 {
         }
         arrayIns.insertionSortCompare();
         System.out.println();
+        arrayIns.clear();
+
+        System.out.println("Already Sorted array");
+        // inserts all items into partially sorted order
+        for(int i = 0;i < max_size -1;++i){
+            arrayIns.insert(i);
+        }
+        arrayIns.insert(3);
+        arrayIns.insertionSortCompare();
     }
 }
