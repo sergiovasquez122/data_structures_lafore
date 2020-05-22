@@ -49,6 +49,10 @@ public class ArrayBub {
 
     /**
      * exercise 3.1
+     * modify the bubblesort() method so that it's bidirectional.
+     * This mneas the in index will first carry the largest item from the left to the
+     * right as before, but when it reaches otu, it will reverse and
+     * carry the smallest item from right to left.
      */
     public void bubble_sort_mod(){
         int left_boundary = 0;
