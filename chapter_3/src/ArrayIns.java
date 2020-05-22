@@ -59,7 +59,21 @@ public class ArrayIns {
      * it makes during a sort and display the total.
      */
     public void insertionSortCompare(){
-
+        int copies = 0, comparisons = 0;
+        for(int outer = 1; outer < nElems;++outer){
+            long temp = a[outer];
+            int inner = outer;
+            while(inner > 0){
+                if(temp <= a[inner - 1]){
+                    a[inner] = a[inner - 1];
+                    copies++;
+                    --inner;
+                }
+                comparisons++;
+            }
+            a[inner] = temp;
+        }
+        System.out.print("Copies: " + copies + ", Comparisons: " + comparisons);
     }
 
     public void insertionSort(){
