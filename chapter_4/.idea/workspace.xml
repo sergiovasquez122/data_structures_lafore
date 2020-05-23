@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="280af291-633f-4b8a-bd75-67151fca9fd1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/PQApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PQApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PriorityQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PriorityQ.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -69,11 +70,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PriorityQ.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReverseApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ReverseApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PriorityQ.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PriorityQ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="342">
+              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
               <folding>
                 <element signature="e#525#526#0" expanded="true" />
                 <element signature="e#567#568#0" expanded="true" />
@@ -83,16 +93,18 @@
                 <element signature="e#624#625#0" expanded="true" />
                 <element signature="e#654#655#0" expanded="true" />
                 <element signature="e#696#697#0" expanded="true" />
+                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PQApp.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PQApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PQApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="285">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -124,19 +136,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BracketChecker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BracketChecker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-              <folding>
-                <element signature="e#102#103#0" expanded="true" />
-                <element signature="e#128#129#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -176,8 +175,8 @@
         <option value="$PROJECT_DIR$/questions.md" />
         <option value="$PROJECT_DIR$/src/QueueApp.java" />
         <option value="$PROJECT_DIR$/src/Queue.java" />
-        <option value="$PROJECT_DIR$/src/PQApp.java" />
         <option value="$PROJECT_DIR$/src/PriorityQ.java" />
+        <option value="$PROJECT_DIR$/src/PQApp.java" />
       </list>
     </option>
   </component>
@@ -332,9 +331,9 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3139881" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3690476" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3690476" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39880952" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39880952" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -424,9 +423,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReverseApp.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BracketChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -435,13 +431,6 @@
             <element signature="e#102#103#0" expanded="true" />
             <element signature="e#128#129#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BracketsApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -485,6 +474,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/algs4/algs4.jar!/edu/princeton/cs/algs4/StdRandom.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReverseApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/QueueApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -509,24 +512,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PQApp.java">
+    <entry file="file://$PROJECT_DIR$/src/BracketsApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/algs4/algs4.jar!/edu/princeton/cs/algs4/StdRandom.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="300">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PriorityQ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="342">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
           <folding>
             <element signature="e#525#526#0" expanded="true" />
             <element signature="e#567#568#0" expanded="true" />
@@ -536,7 +532,16 @@
             <element signature="e#624#625#0" expanded="true" />
             <element signature="e#654#655#0" expanded="true" />
             <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PQApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
         </state>
       </provider>
     </entry>

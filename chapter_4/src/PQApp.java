@@ -12,5 +12,13 @@ public class PQApp {
         while(!pq.isEmpty()){
             System.out.println(pq.remove());
         }
+
+        pq.insert(7);
+        pq.insert(8);
+        pq.insert(6);
+        pq.insert(10);
+        while(!pq.isEmpty()){
+            System.out.println(pq.remove());
+        }
     }
 }

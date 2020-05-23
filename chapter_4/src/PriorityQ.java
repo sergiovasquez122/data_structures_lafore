@@ -35,4 +35,8 @@ public class PriorityQ {
     public boolean isFull(){
         return n_items == max_size;
     }
+
+    public void clear(){
+        n_items = 0;
+    }
 }
