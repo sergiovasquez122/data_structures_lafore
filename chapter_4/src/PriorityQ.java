@@ -20,6 +20,10 @@ public class PriorityQ {
         queue_array[i] = item;
     }
 
+    public long remove(){
+        return queue_array[--n_items];
+    }
+
     public long peekMin(){
         return queue_array[n_items - 1];
     }
