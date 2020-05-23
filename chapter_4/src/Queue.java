@@ -22,7 +22,11 @@ public class Queue {
     }
 
     public long remove(){
-
+        long return_value = queue_array[front++];
+        if(front == max_size)
+            front = 0;
+        n_items--;
+        return return_value;
     }
 
     public int size(){
@@ -35,5 +39,9 @@ public class Queue {
 
     public boolean isFull(){
        return n_items == max_size;
+    }
+
+    public long peek_front(){
+        return queue_array[front];
     }
 }
