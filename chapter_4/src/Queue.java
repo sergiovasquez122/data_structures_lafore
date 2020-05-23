@@ -15,9 +15,9 @@ public class Queue {
 
     public void insert(long value){
         if( rear == max_size - 1 ){
-            rear = 0;
+            rear = -1;
         }
-        queue_array[rear++] = value;
+        queue_array[++rear] = value;
         ++n_items;
     }
 
