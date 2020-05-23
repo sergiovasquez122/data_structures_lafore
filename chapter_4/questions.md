@@ -11,7 +11,7 @@
 3. What do LIFO and FIFO mean?
 **LIFO mean 'Last In First out' and FIFO means FIFO means 'First In First out'**
 
-4. True or false: A stack or a queue often serves as the underlying mechanism on which an ADT arrays is based
+4. True or false: A stack or a queue often serves as the underlying mechanism on which an ADT arrays is based? **False**
 
 5. Assume an array is numbered with index 0 on the left. A queue representating a line of movie-goers, with the first to arrive numbered 1, has teh ticked windown on the right. then
     1. there is no numerical correspondence between the index numbers and the movie-goers number
