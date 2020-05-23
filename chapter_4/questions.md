@@ -9,6 +9,7 @@
     4. In both the stack and the queue, items removed in sequence are taken from increasingly high index cells in the array
     
 3. What do LIFO and FIFO mean?
+**LIFO mean 'Last In First out' and FIFO means FIFO means 'First In First out'**
 
 4. True or false: A stack or a queue often serves as the underlying mechanism on which an ADT arrays is based
 
