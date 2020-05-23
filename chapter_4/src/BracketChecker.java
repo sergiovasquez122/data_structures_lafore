@@ -11,15 +11,33 @@ public class BracketChecker {
         StackX theStackX = new StackX(stack_size);
 
         for(int i = 0;i < input.length();++i){
-            char c = input.charAt(i);
+            char current_character = input.charAt(i);
 
-            switch (c)
+            switch (current_character)
             {
                 case '{':
                 case '[':
                 case '(':
+                    theStackX.push(current_character);
                     break;
+
+                case '}':
+                case ']':
+                case ')':
+                    if( !theStackX.isEmpty() ){
+                        char left_bracket = theStackX.pop();
+                        if((left_bracket == '{' && current_character != '}')
+                                || (left_bracket == '(' && current_character != ')')
+                                || (left_bracket == '[' && current_character != ']'))
+                            System.out.println("Error: " + current_character + " j");
+                    } else {
+                        System.out.println("Error: " + current_character + " at " + i);
+                    }
+                break;
             }
+        }
+        if(!theStackX.isEmpty()){
+            System.out.println("Error: missing right delimiter");
         }
     }
 }
