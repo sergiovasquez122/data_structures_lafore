@@ -6,7 +6,7 @@ public class PQApp {
         PriorityQ pq = new PriorityQ(max_size);
 
         for(int i = 0; i < max_size; ++i){
-            pq.insert(StdRandom.uniform(0, 10));
+            pq.insert(StdRandom.uniform(0,50));
         }
 
         while(!pq.isEmpty()){
