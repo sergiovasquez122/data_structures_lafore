@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class BracketsApp {
+
     public static void main(String[] args) {
         while(true){
             System.out.print("Enter string containing delimiters: ");
