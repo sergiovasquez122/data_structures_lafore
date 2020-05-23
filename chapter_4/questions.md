@@ -1,5 +1,6 @@
 1. Suppose you push 10, 20, 30, and 40 onto the stack.
     then you pop three items. which one is left on the stack?
+    **10 is on the stack**
     
 2. Which of the following is true
     1. The pop operation on a stack is considerably simpler than the remove operation on a queue
