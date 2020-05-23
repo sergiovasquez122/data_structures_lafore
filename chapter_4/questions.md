@@ -20,18 +20,18 @@
     3. the array index numbers correspond numerically to the location in the line of movie-goers
     4. the movie-goers and th items in the array move in the same direction
 
-6. As other items are inserted and removed, does a particular item in a queue move along the array from mlower to higher indices, or higher to lower?
+6. As other items are inserted and removed, does a particular item in a queue move along the array from lower to higher indices, or higher to lower?
 
-7. Suppose you insert 15, 25, 35, and 45 into a queue. Then you can remove three items. Which one is left?
+7. Suppose you insert 15, 25, 35, and 45 into a queue. Then you can remove three items. Which one is left? **45**
 
-8. True or False: pushing and popping items on a stack and inserting and removing items in a queue all take O(N) time
+8. True or False: pushing and popping items on a stack and inserting and removing items in a queue all take O(N) time **false**
 
 9. A queue might be used to hold
     1. The items to be sorted in an insertion sort
     2. Reports of a variety of imminent attacks on the star ship enterprise
     3. keystrokes made by a computer user writing a letter
     4. symbols in an algebraic expression being evaluated
-    
+   **3** 
 10. Inserting an item into a typical priority queue takes what big O time?
 
 11. The term priority in a priority queue means that
