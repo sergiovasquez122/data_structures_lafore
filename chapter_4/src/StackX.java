@@ -1,23 +1,23 @@
 public class StackX {
     private int max_size;
-    private long[] stack_array;
+    private char[] stack_array;
     private int top;
 
     public StackX(int s){
         max_size = s;
-        stack_array = new long[max_size];
+        stack_array = new char[max_size];
         top = -1;
     }
 
-    public void push(long value){
+    public void push(char value){
         stack_array[++top] = value;
     }
 
-    public long peek(){
+    public char peek(){
         return stack_array[top];
     }
 
-    public long pop(){
+    public char pop(){
         return stack_array[top--];
     }
 
@@ -25,11 +25,7 @@ public class StackX {
         return top == -1;
     }
 
-    public int size(){
-        return top + 1;
-    }
-
     public boolean isFull(){
-        return top == max_size - 1;
+        return top == max_size  - 1;
     }
 }
