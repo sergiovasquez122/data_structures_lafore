@@ -13,7 +13,7 @@ public class PriorityQ {
         queue_array[n_items++] = item;
 
         int i = n_items - 1;
-        while(i > 0 && queue_array[i -1] >= item){
+        while(i > 0 && queue_array[i -1] <= item){
             queue_array[i] = queue_array[i-1];
             --i;
         }
