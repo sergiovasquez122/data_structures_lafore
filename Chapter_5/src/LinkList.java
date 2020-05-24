@@ -28,6 +28,17 @@ public class LinkList {
         return current;
     }
 
+    public Link delete(int key){
+        Link current = first;
+        Link previous = first;
+        while(current.next != null && current.iData != key){
+            previous = current;
+            current = current.next;
+        }
+        previous.next = current.next;
+        return current;
+    }
+
     public void displayList(){
         System.out.print("List (first-->last): ");
         for(Link current = first;current != null; current = current.next){
