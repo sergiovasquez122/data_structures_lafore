@@ -25,6 +25,17 @@ public class CircularList {
         head.next = newNode;
     }
 
+    public int delete(){
+        int value = head.data;
+        if(head.next == head) head = null;
+        Node current = head.next;
+        while(current.next != head){
+            current = current.next;
+        }
+        current.next = head.next;
+        return value;
+    }
+
     void display(){
         Node current = head;
         do{
