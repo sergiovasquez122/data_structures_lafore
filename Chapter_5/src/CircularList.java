@@ -25,10 +25,14 @@ public class CircularList {
 
     public void insert(int value){
         Node newNode = new Node();
-        if(head == null) head = newNode;
         newNode.data = value;
-        newNode.next = head.next;
-        head.next = newNode;
+        if(head == null){
+            head = newNode;
+            head.next = head;
+        } else {
+            newNode.next = head.next;
+            head.next = newNode;
+        }
     }
 
     public int delete(){
@@ -48,6 +52,7 @@ public class CircularList {
             System.out.print(current.data + " ");
             current = current.next;
         } while(current != head);
+        System.out.println();
     }
 
     public boolean isEmpty(){
@@ -57,6 +62,9 @@ public class CircularList {
     public static void main(String[] args) {
         CircularList circularList = new CircularList();
         circularList.insert(2);
+        circularList.display();
+
+        circularList.insert(3);
         circularList.display();
     }
 }
