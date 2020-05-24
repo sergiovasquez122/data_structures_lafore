@@ -4,7 +4,7 @@
     3. has the data type of the class
     4. does not hold the object itself
 **4**
-2. Access to the links in a linked list is usually through the **reference** link
+2. Access to the links in a linked list is usually through the **first** link
 
 3. When you create a reference to a link in a linked list, if 
     1. must refer to the first linke
@@ -23,21 +23,21 @@
     4. newlink.next = will refer to the new first link in the list
 **1**    
 7. Assuming current points to the next-to-last link in a singly linked list, what statement will delete the last link from the  list?
-
+**current.next = null**
 8. When all references to a link are changed to refer to something else, what happens to the link?
-
+**Java Garbage collector collects it**
 9. A double-ended list
     1. can be accessed from either end
     2. is a different name for a doubly linked list
     3. has pointers running both forward and backward between links
     4. has its first link connect to its first link
   **3** 
-10. A special case often occurs for insertion and deletion routines when a list __
+10. A special case often occurs for insertion and deletion routines when a list is **empty**
 
 11. Assuming a copy takes longer than a comparison, it is faster to delete an item with a certain key from a liknked list or from an unsorted array
 **linked list**
 12. How many times would you need to traverse a singly linked list to delete the item with the largest key?
-**O(N)**
+**once if the list has a previous reference**
 13. Of the lists discussed in this chapter, which one would be best for implementing a queue?
 **doubled ended list**
 14. Which of the of the following is not true? Iterators would be useful if you wanted to
