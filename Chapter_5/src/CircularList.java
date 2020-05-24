@@ -10,13 +10,12 @@ public class CircularList {
     private Node head;
     private int size;
 
-    public Node current(){
-        return head;
+    public int current(){
+        return head.data;
     }
 
-    public Node next(){
+    public void next(){
         head = head.next;
-        return head;
     }
 
     public int size(){

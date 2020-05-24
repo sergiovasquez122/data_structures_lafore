@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1896b739-3387-4922-b707-b157397fc85a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/CircularList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircularList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +14,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="240">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <folding>
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CircularList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CircularList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CircularList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+            <state relative-caret-position="120">
+              <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
               <folding>
                 <element signature="e#210#211#0" expanded="true" />
                 <element signature="e#237#238#0" expanded="true" />
@@ -158,7 +168,6 @@
         <option value="$PROJECT_DIR$/src/LinkListApp.java" />
         <option value="$PROJECT_DIR$/src/LinkList2App.java" />
         <option value="$PROJECT_DIR$/src/LinkList.java" />
-        <option value="$PROJECT_DIR$/src/Stack.java" />
         <option value="$PROJECT_DIR$/src/QueueApp.java" />
         <option value="$PROJECT_DIR$/src/Queue.java" />
         <option value="$PROJECT_DIR$/src/LinkStack.java" />
@@ -169,14 +178,15 @@
         <option value="$PROJECT_DIR$/src/PriorityQueue.java" />
         <option value="$PROJECT_DIR$/src/Matrix.java" />
         <option value="$PROJECT_DIR$/src/CircularList.java" />
+        <option value="$PROJECT_DIR$/src/Stack.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="404" />
-    <option name="y" value="33" />
-    <option name="width" value="654" />
-    <option name="height" value="737" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="715" />
+    <option name="y" value="24" />
+    <option name="width" value="651" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -311,11 +321,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
+    <frame x="715" y="24" width="651" height="744" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14553991" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2971246" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32886904" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -323,7 +333,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31994048" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.38244048" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.39968896" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49921754" weight="0.39880952" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -348,7 +358,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CircularList.java</url>
-          <line>70</line>
+          <line>72</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -389,6 +399,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -506,13 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -576,8 +589,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CircularList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+        <state relative-caret-position="120">
+          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
           <folding>
             <element signature="e#210#211#0" expanded="true" />
             <element signature="e#237#238#0" expanded="true" />
@@ -585,6 +598,23 @@
             <element signature="e#400#401#0" expanded="true" />
             <element signature="e#1285#1286#0" expanded="true" />
             <element signature="e#1320#1321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
           </folding>
         </state>
       </provider>
