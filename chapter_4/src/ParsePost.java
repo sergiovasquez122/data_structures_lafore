@@ -2,7 +2,7 @@ public class ParsePost {
     private RPNStack the_stack;
     private String input;
 
-    private ParsePost(String s){
+    public ParsePost(String s){
         input = s;
     }
 
