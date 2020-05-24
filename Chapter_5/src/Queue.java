@@ -25,6 +25,13 @@ public class Queue {
         }
     }
 
+    public void displayList(){
+        for(Link current = first;current != null;current = current.next){
+            current.displayLink();
+        }
+        System.out.println();
+    }
+
     public double delete(){
         double value = first.dData;
         first = first.next;
