@@ -26,9 +26,8 @@ public class Matrix {
                 col.rightlink = new Node();
                 col = col.rightlink;
             }
-            Node newRow = new Node();
-            current.bottomlink = newRow;
-            current = newRow;
+            current.bottomlink = new Node();
+            current = current.bottomlink;
         }
     }
 
@@ -48,7 +47,7 @@ public class Matrix {
                 current_col = current_col.rightlink;
             }
             System.out.println();
-            current_row = current_row.rightlink;
+            current_row = current_row.bottomlink;
         }
     }
 
@@ -58,5 +57,17 @@ public class Matrix {
 
     public int cols(){
         return cols;
+    }
+
+    public int getValue(int m, int n){
+        Node current = upperleft;
+        for(int i = 0;i < m;++i) current = current.bottomlink;
+        for(int i = 0;i < n;++i) current = current.rightlink;
+        return current.value;
+    }
+
+    public static void main(String[] args) {
+        Matrix matrix = new Matrix(5,5);
+        matrix.displayMatrix();
     }
 }
