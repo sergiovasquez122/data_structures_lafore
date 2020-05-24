@@ -69,5 +69,13 @@ public class Matrix {
     public static void main(String[] args) {
         Matrix matrix = new Matrix(5,5);
         matrix.displayMatrix();
+        System.out.println();
+
+        for(int i = 0; i < 5;++i){
+            for(int j = 0;j < 5;++j){
+                matrix.updateValue(i, j, i - j);
+            }
+        }
+        matrix.displayMatrix();
     }
 }
