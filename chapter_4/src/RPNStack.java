@@ -30,7 +30,17 @@ public class RPNStack {
         return stack_array[n];
     }
 
-    public void displayStack(String s){
+    public int size(){
+        return top + 1;
+    }
 
+    public void displayStack(String s){
+        System.out.print(s);
+        System.out.print("Stack (Bottom->top):");
+        for(int i = 0;i < size();++i){
+            System.out.print(peekN(i));
+            System.out.print(' ');
+        }
+        System.out.println();
     }
 }
