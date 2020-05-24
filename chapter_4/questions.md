@@ -44,10 +44,10 @@
 
 13. One difference between a priority queue and an ordered array is that
     1. the lowest priority item cannot be extracted easily from the array as it can from the priority queue
-    2. the array must be ordered while the priority queue must be
+    2. the array must be ordered while the priority queue must not be
     3. the highest priority item can be extraced easily from the priority queue but not from the array
     4. all of the above
-    
+   **2** 
 14. suppose you based a priority queue class on the OrdArray Class. This will buy you binary search search capability. If you wanted the best performance for your prioirty queue, would you need to modify the ordarry class
 **You would only need a method to find the minimum value**
 
