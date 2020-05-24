@@ -37,12 +37,17 @@ public class CircularList {
 
     public int delete(){
         int value = head.data;
-        if(head.next == head) head = null;
-        Node current = head.next;
-        while(current.next != head){
-            current = current.next;
+        if(head.next == head)
+        {
+            head = null;
+        } else{
+            Node current = head.next;
+            while (current.next != head) {
+                current = current.next;
+            }
+            current.next = head.next;
+            head = current.next;
         }
-        current.next = head.next;
         return value;
     }
 

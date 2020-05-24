@@ -50,15 +50,15 @@
       <file leaf-file-name="CircularList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CircularList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="180">
+              <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
               <folding>
                 <element signature="e#210#211#0" expanded="true" />
                 <element signature="e#237#238#0" expanded="true" />
                 <element signature="e#377#378#0" expanded="true" />
                 <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#1026#1027#0" expanded="true" />
-                <element signature="e#1061#1062#0" expanded="true" />
+                <element signature="e#1285#1286#0" expanded="true" />
+                <element signature="e#1320#1321#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -348,7 +348,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CircularList.java</url>
-          <line>65</line>
+          <line>70</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -576,15 +576,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CircularList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="180">
+          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
           <folding>
             <element signature="e#210#211#0" expanded="true" />
             <element signature="e#237#238#0" expanded="true" />
             <element signature="e#377#378#0" expanded="true" />
             <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1061#1062#0" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
+            <element signature="e#1320#1321#0" expanded="true" />
           </folding>
         </state>
       </provider>
