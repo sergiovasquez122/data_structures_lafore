@@ -22,6 +22,7 @@ public class Queue {
             first = last = newNode;
         } else {
             last.next = newNode;
+            last = newNode;
         }
     }
 

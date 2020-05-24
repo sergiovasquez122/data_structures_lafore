@@ -8,7 +8,6 @@ public class QueueApp {
         theQueue.push(77, .2);
 
         theQueue.displayList();
-
         theQueue.delete();
         theQueue.delete();
         theQueue.displayList();
