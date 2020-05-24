@@ -17,6 +17,13 @@ public class CircularList {
         return head;
     }
 
+    public void insert(int value){
+        Node newNode = new Node();
+        newNode.data = value;
+        newNode.next = head.next;
+        head.next = newNode;
+    }
+
     void display(){
         Node current = head;
         do{
