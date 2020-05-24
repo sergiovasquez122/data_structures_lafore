@@ -40,10 +40,15 @@ public class Matrix {
     }
 
     public void displayMatrix(){
+        Node current_row = upperleft;
         for(int i = 0;i < rows;++i){
+            Node current_col = current_row;
             for(int j = 0;j < cols;++j){
-
+                System.out.print(current_col.value + " ");
+                current_col = current_col.rightlink;
             }
+            System.out.println();
+            current_row = current_row.rightlink;
         }
     }
 
