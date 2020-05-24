@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1896b739-3387-4922-b707-b157397fc85a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Matrix.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,20 +15,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CircularList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CircularList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Matrix.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Matrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/src/SortedLIst.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#143#144#0" expanded="true" />
                 <element signature="e#186#187#0" expanded="true" />
@@ -94,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PriorityQueue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PriorityQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+            <state>
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding>
                 <element signature="e#338#339#0" expanded="true" />
                 <element signature="e#364#365#0" expanded="true" />
@@ -144,7 +151,6 @@
         <option value="$PROJECT_DIR$/src/LinkListApp.java" />
         <option value="$PROJECT_DIR$/src/LinkList2App.java" />
         <option value="$PROJECT_DIR$/src/LinkList.java" />
-        <option value="$PROJECT_DIR$/src/Matrix.java" />
         <option value="$PROJECT_DIR$/src/CircularList.java" />
         <option value="$PROJECT_DIR$/src/Stack.java" />
         <option value="$PROJECT_DIR$/src/QueueApp.java" />
@@ -155,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/SortedListApp.java" />
         <option value="$PROJECT_DIR$/src/DoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/PriorityQueue.java" />
+        <option value="$PROJECT_DIR$/src/Matrix.java" />
       </list>
     </option>
   </component>
@@ -451,13 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CircularList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -530,7 +530,7 @@
     <entry file="file://$PROJECT_DIR$/src/SortedLIst.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#143#144#0" expanded="true" />
             <element signature="e#186#187#0" expanded="true" />
@@ -544,13 +544,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+        <state>
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
             <element signature="e#338#339#0" expanded="true" />
             <element signature="e#364#365#0" expanded="true" />
             <element signature="e#400#401#0" expanded="true" />
             <element signature="e#426#427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
           </folding>
         </state>
       </provider>
