@@ -58,4 +58,11 @@ public class PQ {
     public void clear(){
         n_items = 0;
     }
+
+    public void display(){
+        for(long l : queue_array){
+            System.out.print(l + " ");
+        }
+        System.out.println();
+    }
 }

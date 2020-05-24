@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/BracketsApp.java" line="13" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="280af291-633f-4b8a-bd75-67151fca9fd1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PQ.java" afterDir="false" />
-    </list>
+    <list default="true" id="280af291-633f-4b8a-bd75-67151fca9fd1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -109,8 +106,8 @@
       <file leaf-file-name="PQ.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PQ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+            <state relative-caret-position="225">
+              <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
               <folding>
                 <element signature="e#428#429#0" expanded="true" />
                 <element signature="e#469#470#0" expanded="true" />
@@ -118,6 +115,8 @@
                 <element signature="e#572#573#0" expanded="true" />
                 <element signature="e#579#580#0" expanded="true" />
                 <element signature="e#617#618#0" expanded="true" />
+                <element signature="e#1225#1226#0" expanded="true" />
+                <element signature="e#1241#1242#0" expanded="true" />
                 <element signature="e#668#669#0" expanded="true" />
                 <element signature="e#694#695#0" expanded="true" />
               </folding>
@@ -336,7 +335,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="715" y="24" width="651" height="744" extended-state="4" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19808307" />
@@ -602,8 +600,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PQ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        <state relative-caret-position="225">
+          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
           <folding>
             <element signature="e#428#429#0" expanded="true" />
             <element signature="e#469#470#0" expanded="true" />
@@ -611,6 +609,8 @@
             <element signature="e#572#573#0" expanded="true" />
             <element signature="e#579#580#0" expanded="true" />
             <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#1241#1242#0" expanded="true" />
             <element signature="e#668#669#0" expanded="true" />
             <element signature="e#694#695#0" expanded="true" />
           </folding>
