@@ -12,9 +12,21 @@ public class Matrix {
 
     private int rows;
     private int cols;
-    Node upperleft;
+    private Node upperleft;
 
     public Matrix(int m, int n){
+        upperleft = new Node();
+        Node current = upperleft;
+        for(int i = 0;i < m;++i){
+            Node col = current;
+            for(int j = 0;j < n;++j){
+                col.rightlink = new Node();
+                col = col.rightlink;
+            }
+            Node newRow = new Node();
+            current.bottomlink = newRow;
+            current = newRow;
+        }
     }
 
     public void updateValue(int m, int n, int value){
