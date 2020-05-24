@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="280af291-633f-4b8a-bd75-67151fca9fd1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PQ.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -108,9 +109,11 @@
       <file leaf-file-name="PQ.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PQ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+            <state relative-caret-position="195">
+              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
               <folding>
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
                 <element signature="e#536#537#0" expanded="true" />
                 <element signature="e#572#573#0" expanded="true" />
                 <element signature="e#579#580#0" expanded="true" />
@@ -336,7 +339,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19808307" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19808307" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="right" id="Palette&#9;" />
@@ -344,7 +347,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31259722" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.36858475" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.36858475" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2037325" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -599,9 +602,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PQ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        <state relative-caret-position="195">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
           <folding>
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
             <element signature="e#536#537#0" expanded="true" />
             <element signature="e#572#573#0" expanded="true" />
             <element signature="e#579#580#0" expanded="true" />

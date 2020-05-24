@@ -27,7 +27,20 @@ public class PQ {
     }
 
     public long remove(){
+        long min_value = Long.MAX_VALUE;
+        int index = 0;
+        for(int i = 0;i < n_items;++i){
+            if(min_value > queue_array[i]){
+                index = i;
+                min_value = queue_array[i];
+            }
+        }
 
+        for(int k = index;k < n_items;++k){
+            queue_array[k] = queue_array[k + 1];
+        }
+        n_items--;
+        return min_value;
     }
 
     public boolean isEmpty(){
@@ -36,6 +49,10 @@ public class PQ {
 
     public int size(){
         return n_items;
+    }
+
+    public boolean full(){
+        return n_items == max_size;
     }
 
     public void clear(){
