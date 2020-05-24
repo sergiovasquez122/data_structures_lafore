@@ -66,5 +66,20 @@ public class CircularList {
 
         circularList.insert(3);
         circularList.display();
+
+        circularList.next();
+        circularList.display();
+        circularList.next();
+        circularList.display();
+
+        circularList = new CircularList();
+        for(int i = 0;i < 10;++i){
+            circularList.insert(i);
+        }
+        circularList.display();
+        circularList.next();
+        circularList.display();
+        circularList.delete();
+        circularList.display();
     }
 }
