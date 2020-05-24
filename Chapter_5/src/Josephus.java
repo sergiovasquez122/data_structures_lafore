@@ -1,5 +1,6 @@
+/**
+ * exercise 5.5
+ */
 public class Josephus {
-    public static void main(String[] args) {
 
-    }
 }
