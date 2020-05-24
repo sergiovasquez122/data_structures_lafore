@@ -8,7 +8,7 @@ public class Deque {
 
     private Node head;
     private Node tail;
-    int size;
+    private int size;
 
     public Deque(){
         head = tail = null;
@@ -47,11 +47,16 @@ public class Deque {
         }
     }
 
-    public void removeFront(){
+    public int removeFront(){
+        int value = head.value;
+        head = head.next;
+        return value;
     }
 
-    public void removeBack(){
-
+    public int removeBack(){
+        int value = tail.value;
+        tail = tail.prev;
+        return value;
     }
 
     private class Node{
