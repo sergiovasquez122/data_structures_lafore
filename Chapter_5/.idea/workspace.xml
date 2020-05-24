@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1896b739-3387-4922-b707-b157397fc85a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../chapter_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortedLIst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Link.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Link.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LinkList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkList.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,11 +78,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkStackApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinkStackApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkStackApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            <state relative-caret-position="165">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SortedLIst.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SortedLIst.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -138,6 +139,7 @@
         <option value="$PROJECT_DIR$/src/Queue.java" />
         <option value="$PROJECT_DIR$/src/LinkStack.java" />
         <option value="$PROJECT_DIR$/src/LinkStackApp.java" />
+        <option value="$PROJECT_DIR$/src/SortedLIst.java" />
       </list>
     </option>
   </component>
@@ -274,6 +276,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="652" height="744" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2966507" />
@@ -484,8 +487,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkStackApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="165">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SortedLIst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
