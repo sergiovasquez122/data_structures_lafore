@@ -1,5 +1,10 @@
 import java.util.Random;
 
+/**
+ * exercise 4.5
+ * Write a program that models checkout lines ata supermaker
+ * using the Queue class
+ */
 public class Checker {
     private Queue queue;
     private int processing_time;
