@@ -19,7 +19,7 @@
     opposite left-right directions
     3. the array index numbers correspond numerically to the location in the line of movie-goers
     4. the movie-goers and th items in the array move in the same direction
-
+**2**
 6. As other items are inserted and removed, does a particular item in a queue move along the array from lower to higher indices, or higher to lower?
 
 7. Suppose you insert 15, 25, 35, and 45 into a queue. Then you can remove three items. Which one is left? **45**
