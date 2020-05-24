@@ -37,9 +37,9 @@
 11. The term priority in a priority queue means that
     1. the highest priority item are inserted first
     2. the programmer must prioritize access to the underlying array
-    3. the underlying array is sorted by teh priority of the items
+    3. the underlying array is sorted by the priority of the items
     4. the lowest priority items are deleted first
-    
+   **3** 
 12. True or False: At least one of the methods in the pq uses a linear search**True**
 
 13. One difference between a priority queue and an ordered array is that
@@ -53,7 +53,7 @@
 
 15. A priority queue might be used to hold
     1. passengers to be picked up by a taxi from different parts of the city
-    2. keystrokes maded at a computer keyboard
+    2. keystrokes made at at computer keyboard
     3. squares on a chessboard in a game program
     4. planets in a solar system simulation
 **1**
