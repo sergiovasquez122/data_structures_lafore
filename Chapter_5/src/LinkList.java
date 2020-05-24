@@ -35,7 +35,8 @@ public class LinkList {
             previous = current;
             current = current.next;
         }
-        previous.next = current.next;
+        if(current == first) first = first.next;
+        else previous.next = current.next;
         return current;
     }
 
