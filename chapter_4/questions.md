@@ -32,7 +32,7 @@
     3. keystrokes made by a computer user writing a letter
     4. symbols in an algebraic expression being evaluated
    **3** 
-10. Inserting an item into a typical priority queue takes what big O time?
+10. Inserting an item into a typical priority queue takes what big O time? **O(N) given ordered array implementation**
 
 11. The term priority in a priority queue means that
     1. the highest priority item are inserted first
@@ -40,7 +40,7 @@
     3. the underlying array is sorted by teh priority of the items
     4. the lowest priority items are deleted first
     
-12. True or False: At least one of the methods in the pq uses a linear search
+12. True or False: At least one of the methods in the pq uses a linear search**True**
 
 13. One difference between a priority queue and an ordered array is that
     1. the lowest priority item cannot be extracted easily from the array as it can from the priority queue
