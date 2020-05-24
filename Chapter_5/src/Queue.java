@@ -17,7 +17,7 @@ public class Queue {
     }
 
     public void push(int intValue, double Value){
-        Link newNode = new Link(2, 2.99);
+        Link newNode = new Link(intValue, Value);
         if(first == null){
             first = last = newNode;
         } else {
