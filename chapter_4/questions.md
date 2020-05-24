@@ -49,6 +49,7 @@
     4. all of the above
     
 14. suppose you based a priority queue class on the OrdArray Class. This will buy you binary search search capability. If you wanted the best performance for your prioirty queue, would you need to modify the ordarry class
+**You would only need a method to find the minimum value**
 
 15. A priority queue might be used to hold
     1. passengers to be picked up by a taxi from different parts of the city
