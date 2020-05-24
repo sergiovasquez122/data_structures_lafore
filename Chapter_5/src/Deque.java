@@ -1,3 +1,5 @@
+import org.omg.CORBA.NO_IMPLEMENT;
+
 /**
  * Exercise 5.2
  * Implement a deque based on a doubly linked list
@@ -22,15 +24,30 @@ public class Deque {
     }
 
     public void insertFront(int value){
-
+        Node newHead = new Node();
+        newHead.value = value;
+        if( isEmpty() ){
+            head = tail = newHead;
+        } else{
+            newHead.next = head;
+            head.prev = newHead;
+            head = newHead;
+        }
     }
 
     public void insertBack(int value){
-
+        Node newTail = new Node();
+        newTail.value = value;
+        if( isEmpty() ){
+            head = tail = newTail;
+        } else {
+            newTail.prev = tail;
+            tail.next = newTail;
+            tail = newTail;
+        }
     }
 
     public void removeFront(){
-
     }
 
     public void removeBack(){
@@ -39,6 +56,7 @@ public class Deque {
 
     private class Node{
         private Node next;
+        private Node prev;
         private int value;
     }
 }
