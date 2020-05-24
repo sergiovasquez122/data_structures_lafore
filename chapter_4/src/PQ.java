@@ -36,7 +36,7 @@ public class PQ {
             }
         }
 
-        for(int k = index;k < n_items;++k){
+        for(int k = index;k < n_items - 1;++k){
             queue_array[k] = queue_array[k + 1];
         }
         n_items--;
