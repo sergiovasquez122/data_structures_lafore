@@ -20,6 +20,14 @@ public class LinkList {
         return temp;
     }
 
+    public Link find(int key){
+        Link current = first;
+        while(current.next != null && current.iData != key){
+            current = current.next;
+        }
+        return current;
+    }
+
     public void displayList(){
         System.out.print("List (first-->last): ");
         for(Link current = first;current != null; current = current.next){
