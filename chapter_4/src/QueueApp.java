@@ -22,5 +22,15 @@ public class QueueApp {
             System.out.println(" ");
         }
         System.out.println("");
+        the_queue.insert(50);
+        the_queue.insert(60);
+        the_queue.insert(70);
+        the_queue.insert(80);
+        the_queue.remove();
+        the_queue.insert(21);
+        the_queue.insert(12);
+        the_queue.remove();
+        the_queue.insert(5);
+        the_queue.display();
     }
 }

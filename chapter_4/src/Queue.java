@@ -50,7 +50,10 @@ public class Queue {
      * to display the content of the queue as it
      * was inserted
      */
-    public void queue(){
-
+    public void display(){
+        for(int i = 0;i < n_items;++i){
+            System.out.print(queue_array[(i + front) % max_size] + " ");
+        }
+        System.out.println();
     }
 }
