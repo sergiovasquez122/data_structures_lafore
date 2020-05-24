@@ -56,3 +56,4 @@
     2. keystrokes maded at a computer keyboard
     3. squares on a chessboard in a game program
     4. planets in a solar system simulation
+**1**
