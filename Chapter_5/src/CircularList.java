@@ -53,6 +53,7 @@ public class CircularList {
 
     void display(){
         Node current = head;
+        if(current == null) return;
         do{
             System.out.print(current.data + " ");
             current = current.next;
@@ -86,5 +87,12 @@ public class CircularList {
         circularList.display();
         circularList.delete();
         circularList.display();
+
+        circularList.delete();
+        circularList.display();
+        while(!circularList.isEmpty()){
+            circularList.delete();
+            circularList.display();
+        }
     }
 }
