@@ -15,11 +15,14 @@ public class Matrix {
     private Node upperleft;
 
     public Matrix(int m, int n){
+        this.rows = m;
+        this.cols = n;
         upperleft = new Node();
         Node current = upperleft;
-        for(int i = 0;i < m;++i){
+
+        for(int i = 0;i < rows;++i){
             Node col = current;
-            for(int j = 0;j < n;++j){
+            for(int j = 0;j < cols;++j){
                 col.rightlink = new Node();
                 col = col.rightlink;
             }
@@ -34,6 +37,14 @@ public class Matrix {
         for(int i = 0;i < m;++i) current = current.bottomlink;
         for(int i = 0;i< n;++i) current = current.rightlink;
         current.value = value;
+    }
+
+    public void displayMatrix(){
+        for(int i = 0;i < rows;++i){
+            for(int j = 0;j < cols;++j){
+
+            }
+        }
     }
 
     public int rows(){
