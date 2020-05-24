@@ -7,7 +7,9 @@ public class CircularList {
         private Node next;
     }
 
-    Node head;
+    private Node head;
+    private int size;
+
     public Node current(){
         return head;
     }
@@ -15,6 +17,10 @@ public class CircularList {
     public Node next(){
         head = head.next;
         return head;
+    }
+
+    public int size(){
+        return size;
     }
 
     public void insert(int value){
@@ -42,6 +48,10 @@ public class CircularList {
             System.out.print(current.data + " ");
             current = current.next;
         } while(current != head);
+    }
+
+    public boolean isEmpty(){
+        return head == null;
     }
 
     public static void main(String[] args) {
