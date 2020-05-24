@@ -44,4 +44,13 @@ public class Queue {
     public long peek_front(){
         return queue_array[front];
     }
+
+    /**
+     * Exercise 4.1 Write a method
+     * to display the content of the queue as it
+     * was inserted
+     */
+    public void queue(){
+
+    }
 }
