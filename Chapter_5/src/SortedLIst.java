@@ -15,7 +15,9 @@ public class SortedLIst {
 
     private Node first;
 
-    public SortedLIst(){}
+    public SortedLIst(){
+
+    }
 
     public boolean isEmpty(){
         return first == null;

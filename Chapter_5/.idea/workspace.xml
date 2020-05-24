@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1896b739-3387-4922-b707-b157397fc85a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SortedListApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SortedLIst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortedLIst.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,15 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LinkList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Matrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Matrix.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -44,8 +37,8 @@
       <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -86,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortedLIst.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SortedLIst.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SortedLIst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
               <folding>
                 <element signature="e#143#144#0" expanded="true" />
                 <element signature="e#186#187#0" expanded="true" />
@@ -99,6 +92,15 @@
                 <element signature="e#365#366#0" expanded="true" />
                 <element signature="e#388#389#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SortedListApp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SortedListApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -147,6 +149,7 @@
         <option value="$PROJECT_DIR$/src/LinkStack.java" />
         <option value="$PROJECT_DIR$/src/LinkStackApp.java" />
         <option value="$PROJECT_DIR$/src/SortedLIst.java" />
+        <option value="$PROJECT_DIR$/src/SortedListApp.java" />
       </list>
     </option>
   </component>
@@ -209,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkStackApp">
+  <component name="RunManager" selected="Application.SortedListApp">
     <configuration name="LinkList2App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkList2App" />
       <module name="Chapter_5" />
@@ -227,6 +230,11 @@
     </configuration>
     <configuration name="QueueApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="QueueApp" />
+      <module name="Chapter_5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="SortedListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortedListApp" />
       <module name="Chapter_5" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -258,9 +266,11 @@
       <item itemvalue="Application.LinkList2App" />
       <item itemvalue="Application.QueueApp" />
       <item itemvalue="Application.LinkStackApp" />
+      <item itemvalue="Application.SortedListApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortedListApp" />
         <item itemvalue="Application.LinkStackApp" />
         <item itemvalue="Application.QueueApp" />
         <item itemvalue="Application.LinkList2App" />
@@ -283,6 +293,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="652" height="744" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2966507" />
@@ -291,9 +302,9 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33748055" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33592534" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.38258165" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.38258165" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39880952" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -456,13 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkList2App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -500,8 +504,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SortedLIst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
           <folding>
             <element signature="e#143#144#0" expanded="true" />
             <element signature="e#186#187#0" expanded="true" />
@@ -510,6 +514,20 @@
             <element signature="e#365#366#0" expanded="true" />
             <element signature="e#388#389#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SortedListApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
         </state>
       </provider>
     </entry>
