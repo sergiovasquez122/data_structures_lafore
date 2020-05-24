@@ -30,7 +30,14 @@ public class PriorityQueue {
             previous = current;
             current = current.next;
         }
-
+        if(previous == null)
+        {
+            head = newNode;
+        }
+        else {
+            newNode.next = current;
+            previous.next = newNode;
+        }
     }
 
     public int delete(){
