@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1896b739-3387-4922-b707-b157397fc85a" name="Default" comment="" />
+    <list default="true" id="1896b739-3387-4922-b707-b157397fc85a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Deque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_4/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,24 +17,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="questions.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="questions.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/questions.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="315">
-                <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <first_editor relative-caret-position="280">
+                <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Deque.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Deque.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+              <folding>
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/questions.md" />
+        <option value="$PROJECT_DIR$/src/Deque.java" />
       </list>
     </option>
   </component>
@@ -39,6 +70,7 @@
     <option name="width" value="651" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -52,6 +84,20 @@
             <path>
               <item name="Chapter_5" type="b2602c69:ProjectViewProjectNode" />
               <item name="Chapter_5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chapter_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chapter_5" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chapter_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chapter_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chapter_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
@@ -124,9 +170,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3452566" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -146,10 +192,23 @@
     <entry file="file://$PROJECT_DIR$/questions.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <first_editor relative-caret-position="280">
+            <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
