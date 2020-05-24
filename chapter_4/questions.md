@@ -7,7 +7,7 @@
     2. The contents of a queue can wrap around, while those of a stack cannot
     3. The top of a stack corresponds to the front of a queue
     4. In both the stack and the queue, items removed in sequence are taken from increasingly high index cells in the array
-    
+   **2** 
 3. What do LIFO and FIFO mean?
 **LIFO mean 'Last In First out' and FIFO means FIFO means 'First In First out'**
 
