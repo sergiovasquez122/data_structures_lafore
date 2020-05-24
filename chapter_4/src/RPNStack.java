@@ -1,24 +1,24 @@
 public class RPNStack {
 
     private int max_size;
-    private char[] stack_array;
+    private int[] stack_array;
     private int top;
 
     public RPNStack(int s){
         max_size = s;
-        stack_array = new char[max_size];
+        stack_array = new int[max_size];
         top = -1;
     }
 
-    public void push(char value){
+    public void push(int value){
         stack_array[++top] = value;
     }
 
-    public char pop(){
+    public int pop(){
         return stack_array[top--];
     }
 
-    public char peek(){
+    public int peek(){
         return stack_array[top];
     }
 
@@ -26,7 +26,7 @@ public class RPNStack {
         return top == -1;
     }
 
-    public char peekN(int n){
+    public int peekN(int n){
         return stack_array[n];
     }
 
