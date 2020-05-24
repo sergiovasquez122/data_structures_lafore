@@ -1,3 +1,4 @@
+
 /**
  * Exercise 5.3 Implement a Circular linked list
  */
@@ -31,6 +32,7 @@ public class CircularList {
         } else {
             newNode.next = head.next;
             head.next = newNode;
+            head = newNode;
         }
     }
 
@@ -45,7 +47,7 @@ public class CircularList {
                 current = current.next;
             }
             current.next = head.next;
-            head = current.next;
+            head = current;
         }
         return value;
     }
@@ -62,36 +64,5 @@ public class CircularList {
 
     public boolean isEmpty(){
         return head == null;
-    }
-
-    public static void main(String[] args) {
-        CircularList circularList = new CircularList();
-        circularList.insert(2);
-        circularList.display();
-
-        circularList.insert(3);
-        circularList.display();
-
-        circularList.next();
-        circularList.display();
-        circularList.next();
-        circularList.display();
-
-        circularList = new CircularList();
-        for(int i = 0;i < 10;++i){
-            circularList.insert(i);
-        }
-        circularList.display();
-        circularList.next();
-        circularList.display();
-        circularList.delete();
-        circularList.display();
-
-        circularList.delete();
-        circularList.display();
-        while(!circularList.isEmpty()){
-            circularList.delete();
-            circularList.display();
-        }
     }
 }
