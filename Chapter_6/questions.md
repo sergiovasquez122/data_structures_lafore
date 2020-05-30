@@ -16,7 +16,7 @@
 
 7. We've seen that recursion can take the place of a loop, as in the loop-oriented orderedArray.java program and the recursive binarySearch.java program. Which of the following is not true?
     1. Both programs divide the range repeatedly in half
-    2. If the key is not found, the loop version returns because the range bounds cross, but the recursive version occurs because it reaches the bottom recursion leve
+    2. If the key is not found, the loop version returns because the range bounds cross, but the recursive version occurs because it reaches the bottom recursion level
     3. if the key is found, the loop version returns from the entire method, whereas the recursive version returns from only one level of recursion
     4. in the recursive version the range to be searched must be specified in the argumetns, while in the loop version it not be
     
@@ -39,15 +39,16 @@
     4. moving one small disk and then a stack of larger disks
     
 13. Which is not true about the merge() method in the merge.java program
-    1. its algorithm can handdle arrays of different sizes
+    1. its algorithm can handle arrays of different sizes
     2. it must search the target array to find where to put the next item.
     3. it is not recursive
     4. it continously takes the smallest item irrspective of what array it's in
+   
 14. the disadvantage of mergesort is that
     1. it is not recursive
     2. it uses more memory
     3. although faster than the insertion sort, it is must slower than quicksort
     4. it is complicated to implement
-   
+2) it uses more memory 
 15. Besides a loop, a __ can often be used instead of recursion
 
