@@ -7,6 +7,15 @@ public class Anagram {
 
     }
 
+    public static void rotate(int newSize){
+        int j;
+        int position = size - newSize;
+        char temp = arrChar[position];
+        for(j = position + 1;j < size;++j)
+            arrChar[j - 1] = arrChar[j];
+        arrChar[j - 1] = temp;
+    }
+
     public static void displayWord(){
         if(count < 99)
             System.out.print(" ");
