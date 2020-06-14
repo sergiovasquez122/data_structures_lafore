@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c00b00d1-3851-48a9-ba61-d9bae9ee0c7c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Anagram.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Towers.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Towers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Towers.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -71,6 +72,15 @@
                 <element signature="e#66#67#0" expanded="true" />
                 <element signature="e#111#112#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Anagram.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Anagram.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -104,6 +114,7 @@
         <option value="$PROJECT_DIR$/src/Darray.java" />
         <option value="$PROJECT_DIR$/src/stackTriangle.java" />
         <option value="$PROJECT_DIR$/questions.md" />
+        <option value="$PROJECT_DIR$/src/Anagram.java" />
       </list>
     </option>
   </component>
@@ -234,13 +245,13 @@
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1629393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1629393" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2643857" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2643857" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -406,6 +417,13 @@
             <element signature="e#66#67#0" expanded="true" />
             <element signature="e#111#112#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Anagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
         </state>
       </provider>
     </entry>
