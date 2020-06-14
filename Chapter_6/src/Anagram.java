@@ -46,7 +46,7 @@ public class Anagram {
             System.out.print(" ");
         System.out.print(++count + " ");
         for(int j = 0;j < size;++j)
-            System.out.print(++count + " ");
+            System.out.print(arrChar[j]);
         System.out.print("   ");
         if(count % 6 == 0)
             System.out.println("");
