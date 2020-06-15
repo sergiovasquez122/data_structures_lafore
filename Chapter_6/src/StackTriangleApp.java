@@ -16,6 +16,7 @@ public class StackTriangleApp {
     public static void recTriangle(){
         theStack = new StackX(10000);
         codePart = 1;
+        while(!step());
     }
 
     public static boolean step(){
