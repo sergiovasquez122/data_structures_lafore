@@ -20,4 +20,8 @@ public class StackX {
     public Params peek(){
         return stackArray[top];
     }
+
+    public boolean isEmpty(){
+        return top == -1;
+    }
 }
