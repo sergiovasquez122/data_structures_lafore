@@ -6,12 +6,15 @@ public class Power {
         int x = StdIn.readInt();
         System.out.print("Enter a number y: ");
         int y = StdIn.readInt();
+        System.out.println(pow(x, y));
     }
 
     public static int pow(int x, int y){
-        System.out.println("x=" + x + ", y="+y);
-
-        System.out.println("Returning " + x + " x=" + x + ", y=" + y);
-        return 0;
+        if(y == 1){
+            return x;
+        } else {
+            int temp = y % 2 == 0 ? pow(x * x, y / 2) : x * pow(x * x , y / 2);
+            return temp;
+        }
     }
 }
