@@ -9,6 +9,9 @@ public class Power {
     }
 
     public static int pow(int x, int y){
+        System.out.println("x=" + x + ", y="+y);
+
+        System.out.println("Returning " + x + " x=" + x + ", y=" + y);
         return 0;
     }
 }
