@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c00b00d1-3851-48a9-ba61-d9bae9ee0c7c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MultApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Combinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Combinations.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +35,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MultApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MultApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MultApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Combinations.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Combinations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -49,19 +58,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Towers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Towers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-              <folding>
-                <element signature="e#66#67#0" expanded="true" />
-                <element signature="e#111#112#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -157,6 +153,7 @@
         <option value="$PROJECT_DIR$/questions.md" />
         <option value="$PROJECT_DIR$/src/Power.java" />
         <option value="$PROJECT_DIR$/src/MultApp.java" />
+        <option value="$PROJECT_DIR$/src/Combinations.java" />
       </list>
     </option>
   </component>
@@ -291,7 +288,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="715" y="24" width="651" height="744" extended-state="4" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1629393" />
@@ -300,7 +296,7 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36408567" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36391914" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.251944" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -581,6 +577,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Combinations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
