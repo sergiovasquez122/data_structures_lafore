@@ -39,6 +39,16 @@ public class Tree {
         preOrder(current.right);
     }
 
+    public void postOrder(Node current){
+        if(current == null){
+            return;
+        }
+
+        postOrder(current.left);
+        postOrder(current.right);
+        System.out.println(current.iData + " ");
+    }
+
     public Node helper(Node current, int id, double dd){
         if(current == null){
            Node newNode = new Node();
