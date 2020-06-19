@@ -19,6 +19,26 @@ public class Tree {
         root = helper(root, id, dd);
     }
 
+    public void inOrder(Node current){
+        if(current == null){
+            return;
+        }
+
+        inOrder(current.left);
+        System.out.println(current.iData + " ");
+        inOrder(current.right);
+    }
+
+    public void preOrder(Node current){
+        if(current == null){
+            return;
+        }
+
+        System.out.println(current.iData + " ");
+        preOrder(current.left);
+        preOrder(current.right);
+    }
+
     public Node helper(Node current, int id, double dd){
         if(current == null){
            Node newNode = new Node();
