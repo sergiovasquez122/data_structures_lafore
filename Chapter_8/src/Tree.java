@@ -49,6 +49,22 @@ public class Tree {
         System.out.println(current.iData + " ");
     }
 
+    public Node minimum(){
+        Node iter = root;
+        while(iter.left != null){
+            iter = iter.left;
+        }
+        return iter;
+    }
+
+    public Node maximum(){
+        Node iter = root;
+        while(iter.right != null){
+            iter = iter.right;
+        }
+        return iter;
+    }
+
     public Node helper(Node current, int id, double dd){
         if(current == null){
            Node newNode = new Node();
