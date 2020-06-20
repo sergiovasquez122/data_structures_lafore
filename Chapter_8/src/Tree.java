@@ -1,3 +1,5 @@
+import edu.princeton.cs.algs4.Stack;
+
 public class Tree {
     private Node root;
 
