@@ -57,6 +57,7 @@ public class Tree {
         return iter;
     }
 
+
     public Node maximum(){
         Node iter = root;
         while(iter.right != null){
@@ -76,9 +77,5 @@ public class Tree {
         if(current.iData < id) current.right = helper(current.right, id, dd);
         else if(current.iData > id) current.left = helper(current.left, id, dd);
         return current;
-    }
-
-    public void delete(int id){
-
     }
 }
