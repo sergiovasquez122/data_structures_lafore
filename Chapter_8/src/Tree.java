@@ -9,7 +9,7 @@ public class Tree {
             if(current.iData < key){
                 current = current.right;
             } else if(current.iData > key){
-                return current.left;
+                current = current.left;
             } else {
                 return current;
             }
