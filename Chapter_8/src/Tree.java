@@ -34,6 +34,22 @@ public class Tree {
         return current;
     }
 
+    public Node minimum(){
+        Node iter = root;
+        while(iter.left != null){
+            iter = iter.left;
+        }
+        return iter;
+    }
+
+    public Node maximum(){
+        Node iter = root;
+        while(iter.right != null){
+            iter = iter.right;
+        }
+        return iter;
+    }
+
     private void inOrder(Node root){
         if(root == null){
             return;
