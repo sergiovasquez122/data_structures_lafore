@@ -56,9 +56,27 @@ public class Tree {
         }
 
         inOrder(root.left);
-        System.out.println(root);
+        System.out.println(root.dData + " ");
         inOrder(root.right);
 
     }
 
+    private void preOrder(Node root) {
+        if(root == null){
+            return;
+        }
+
+        System.out.println(root.iData + " ");
+        inOrder(root.left);
+        inOrder(root.right);
+    }
+
+    private void postOrder(Node root){
+        if(root == null){
+            return;
+        }
+        postOrder(root.left);
+        postOrder(root.right);
+        System.out.println(root.iData + " ");
+    }
 }
