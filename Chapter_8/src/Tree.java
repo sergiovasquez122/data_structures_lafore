@@ -34,7 +34,7 @@ public class Tree {
         return current;
     }
 
-    public Node minimum(){
+    public Node min(Node root){
         Node iter = root;
         while(iter.left != null){
             iter = iter.left;
@@ -42,7 +42,7 @@ public class Tree {
         return iter;
     }
 
-    public Node maximum(){
+    public Node max(Node root){
         Node iter = root;
         while(iter.right != null){
             iter = iter.right;
@@ -107,6 +107,25 @@ public class Tree {
 
     public void deleteMax(){
         root = deleteMax(root);
+    }
+
+    public void delete(int value){
+        root = delete(root, value);
+    }
+
+    public Node delete(Node x, int value){
+        if(x == null) return null;
+        if(x.iData < value) x.right = delete(x.right, value);
+        else if(x.iData > value) x.left = delete(x.left, value);
+        else{
+            if(x.left == null) return x.right;
+            if(x.right == null) return x.left;
+            Node t = x;
+            x = min(t.right);
+            x.right = deleteMin(t.right);
+            x.left = t.left;
+        }
+        return x;
     }
 
     private Node deleteMax(Node x){
