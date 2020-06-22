@@ -94,4 +94,39 @@ public class Tree {
         postOrder(root.right);
         System.out.print(root.iData + " ");
     }
+
+    public void displayTree(){
+        Stack<Node> globalStack = new Stack<>();
+        globalStack.push(root);
+        int nBlanks = 32;
+        boolean isRowEmpty = false;
+        System.out.println("......................................................");
+        while(!isRowEmpty){
+            Stack<Node> localStack = new Stack<>();
+            isRowEmpty = true;
+            for(int j = 0;j < nBlanks;++j){
+                System.out.print(' ');
+            }
+
+            while(!globalStack.isEmpty()){
+                Node temp = globalStack.pop();
+                if(temp != null){
+                    System.out.print(temp.iData);
+                    localStack.push(temp.left);
+                    localStack.push(temp.right);
+                    isRowEmpty = !(temp.left != null || temp.right != null);
+                } else {
+                    System.out.print("--");
+                    localStack.push(null);
+                    localStack.push(null);
+                }
+                for(int j = 0;j < nBlanks * 2 - 2;++j)
+                    System.out.print(' ');
+            }
+            System.out.println();
+            nBlanks /= 2;
+            while(!localStack.isEmpty()) globalStack.push(localStack.pop());
+        }
+        System.out.println("......................................................");
+    }
 }
