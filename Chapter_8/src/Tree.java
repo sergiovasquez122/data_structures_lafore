@@ -50,13 +50,28 @@ public class Tree {
         return iter;
     }
 
+    public void traverse(int traverseType){
+        switch (traverseType){
+            case 1: System.out.println("\nPreorder traversal: ");
+            preOrder(root);
+            break;
+            case 2: System.out.print("\nInorder traversal: ");
+            inOrder(root);
+            break;
+            case 3: System.out.println("\nPostorder traversal: ");
+            postOrder(root);
+            break;
+        }
+        System.out.println();
+    }
+
     private void inOrder(Node root){
         if(root == null){
             return;
         }
 
         inOrder(root.left);
-        System.out.println(root.dData + " ");
+        System.out.print(root.dData + " ");
         inOrder(root.right);
 
     }
@@ -66,7 +81,7 @@ public class Tree {
             return;
         }
 
-        System.out.println(root.iData + " ");
+        System.out.print(root.iData + " ");
         inOrder(root.left);
         inOrder(root.right);
     }
@@ -77,6 +92,6 @@ public class Tree {
         }
         postOrder(root.left);
         postOrder(root.right);
-        System.out.println(root.iData + " ");
+        System.out.print(root.iData + " ");
     }
 }
