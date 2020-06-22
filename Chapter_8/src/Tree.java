@@ -3,81 +3,46 @@ import edu.princeton.cs.algs4.Stack;
 public class Tree {
     private Node root;
 
-    private Node find(int key){
-        Node iter = root;
-        while(iter != null){
-            if(iter.iData < key){
-                iter = iter.right;
-            } else if (iter.iData > key){
-                iter = iter.left;
+    public Node find(int key){
+        Node current = root;
+        while(current != null){
+            if(current.iData < key){
+                current = current.right;
+            } else if(current.iData > key){
+                return current.left;
             } else {
-                return iter;
+                return current;
             }
         }
         return null;
     }
 
     public void insert(int id, double dd){
-        root = helper(root, id, dd);
+        root = insert(root, id, dd);
     }
 
-    public void inOrder(Node current){
+    private Node insert(Node current, int id, double dd){
         if(current == null){
-            return;
+            current = new Node();
+            current.iData = id;
+            current.dData = dd;
+            return current;
         }
 
-        inOrder(current.left);
-        System.out.println(current.iData + " ");
-        inOrder(current.right);
-    }
-
-    public void preOrder(Node current){
-        if(current == null){
-            return;
-        }
-
-        System.out.println(current.iData + " ");
-        preOrder(current.left);
-        preOrder(current.right);
-    }
-
-    public void postOrder(Node current){
-        if(current == null){
-            return;
-        }
-
-        postOrder(current.left);
-        postOrder(current.right);
-        System.out.println(current.iData + " ");
-    }
-
-    public Node minimum(){
-        Node iter = root;
-        while(iter.left != null){
-            iter = iter.left;
-        }
-        return iter;
-    }
-
-
-    public Node maximum(){
-        Node iter = root;
-        while(iter.right != null){
-            iter = iter.right;
-        }
-        return iter;
-    }
-
-    public Node helper(Node current, int id, double dd){
-        if(current == null){
-           Node newNode = new Node();
-           newNode.iData = id;
-           newNode.dData = id;
-           return newNode;
-        }
-
-        if(current.iData < id) current.right = helper(current.right, id, dd);
-        else if(current.iData > id) current.left = helper(current.left, id, dd);
+        if(current.iData < id) current.right = insert(current.right, id, dd);
+        else if(current.iData > id) current.left = insert(current.left, id, dd);
         return current;
     }
+
+    private void inOrder(Node root){
+        if(root == null){
+            return;
+        }
+
+        inOrder(root.left);
+        System.out.println(root);
+        inOrder(root.right);
+
+    }
+
 }

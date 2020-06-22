@@ -6,5 +6,6 @@ public class TreeApp {
         tree.insert(25, 1.7);
         tree.insert(75, 1.9);
 
+
     }
 }
