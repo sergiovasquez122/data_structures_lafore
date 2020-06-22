@@ -95,6 +95,26 @@ public class Tree {
         System.out.print(root.iData + " ");
     }
 
+    public void deleteMin(){
+        root = deleteMin(root);
+    }
+
+    private Node deleteMin(Node x){
+        if(x.left == null) return x.right;
+        x.left = deleteMin(x.left);
+        return x;
+    }
+
+    public void deleteMax(){
+        root = deleteMax(root);
+    }
+
+    private Node deleteMax(Node x){
+        if(x.right == null) return x.left;
+        x.right = deleteMax(x.right);
+        return x;
+    }
+
     public void displayTree(){
         Stack<Node> globalStack = new Stack<>();
         globalStack.push(root);
