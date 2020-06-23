@@ -17,7 +17,7 @@ O(h) where h is the height of the tre
     3. fewer nodes than the main tree
     4. a sibling with the same number of nodes
 **3** 
-6. In the java code for a tree, the __ and the ___ are generally separate classes
+6. In the java code for a tree, the **Node** and the **Tree** are generally separate classes
 
 7. Finding a node in a binary search tree involves going from node to node, asking
         1. how big the node's key is in relation to the search key
