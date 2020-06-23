@@ -21,10 +21,10 @@ O(h) where h is the height of the tre
 
 7. Finding a node in a binary search tree involves going from node to node, asking
         1. how big the node's key is in relation to the search key
-        2. how big the node's key si compare to its right or left children
+        2. how big the node's key is compare to its right or left children
         3. what leaf node we want to reach
         4. what level are we on
-        
+**1**       
 8. An unbalanced tree is on
     1. in which most of the keys have values greater than the average
     2. whose behavior is unpredictable
