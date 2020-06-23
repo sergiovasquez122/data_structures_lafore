@@ -6,9 +6,9 @@ O(h) where h is the height of the tre
     2. every left child has a key less than the parent and every right child has a key greater than the parent
     3. in the path from the root to every leaf node, the key of each node is greater than the key of its parent
     4. a node can have a maximum of two children
-    
+**2** 
 3. true or false: not all trees are binary trees
-
+**true**
 4. In a complete binary tree with 20 nodes, and the root considered to be at level 0, how many nodes are there at level 4
 
 5. A subtree of a binary tree always has
