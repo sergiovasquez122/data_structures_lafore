@@ -1,4 +1,5 @@
 1. Insertions and deletions in a tree require what big O time?
+O(h) where h is the height of the tre
 
 2. A binary tree is a search tree if
     1. Every non-leaf node has children who key values are less than the parent
