@@ -10,7 +10,7 @@ O(h) where h is the height of the tre
 3. true or false: not all trees are binary trees
 **true**
 4. In a complete binary tree with 20 nodes, and the root considered to be at level 0, how many nodes are there at level 4
-
+**5**
 5. A subtree of a binary tree always has
     1. a root that is a child of the main tree's root
     2. a root unconnected to the main tree's root
