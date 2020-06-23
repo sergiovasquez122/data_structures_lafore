@@ -40,11 +40,11 @@ O(h) where h is the height of the tre
     2. following a postorder traversal no parentheses need to be added
     3. following a inorder traversal parentheses must be added
     4. in pre-order traversal, a node is visited before either of its children
-**1** 
+    
 12. If a tree is represented by an array, the right child of a node at index n has an index of 
 2*n+1
 13. True or False: Deleting a node with one child from a binary search tree involves finding that node's successor
-
+**False**
 14. A huffman tree is typically used to __ text
 
 15. Which of the following is not true about a huffman tree?
