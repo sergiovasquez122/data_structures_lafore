@@ -117,9 +117,21 @@ public class PostTree {
         System.out.print("Enter postfix: ");
         String input = StdIn.readLine();
         PostTree postTree = new PostTree(input);
-        postTree.traverse(1);
-        postTree.traverse(2);
-        postTree.traverse(3);
-        postTree.displayTree();
+
+        while(true){
+            System.out.print("Enter first letter of show, ");
+            System.out.print("traverse: ");
+            int choice = StdIn.readChar();
+            switch (choice){
+                case 's':
+                    postTree.displayTree();
+                    break;
+                case 't':
+                    System.out.print("Enter type 1, 2, or 3: ");
+                    int value = StdIn.readInt();
+                    postTree.traverse(value);
+                    break;
+            }
+        }
     }
 }
