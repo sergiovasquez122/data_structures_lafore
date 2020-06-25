@@ -27,7 +27,7 @@ public class Huffman {
             while(pq.size() > 1){
                 Node x = pq.delMin();
                 Node y = pq.delMin();
-                pq.insert(new Node('\0', x.freq + x.freq, x, y));
+                pq.insert(new Node('\0', x.freq + y.freq, x, y));
             }
             return pq.delMin();
         }
@@ -35,7 +35,7 @@ public class Huffman {
 
         @Override
         public int compareTo(Node that) {
-            return Integer.compare(freq, that.freq);
+            return freq - that.freq;
         }
 
         public boolean isLeaf(){

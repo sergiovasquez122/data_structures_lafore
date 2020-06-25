@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46ddf198-4fca-4c43-9636-cbf60e807c6f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Huffman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Chapter_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Huffman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Huffman.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,13 +89,13 @@
       <file leaf-file-name="Huffman.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Huffman.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+            <state relative-caret-position="255">
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding>
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#934#935#0" expanded="true" />
+                <element signature="e#968#969#0" expanded="true" />
+                <element signature="e#1028#1029#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,11 +138,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="715" />
-    <option name="y" value="24" />
-    <option name="width" value="651" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="296" />
+    <option name="y" value="31" />
+    <option name="width" value="653" />
+    <option name="height" value="730" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -261,11 +261,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="715" y="24" width="651" height="744" extended-state="4" />
+    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24920128" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12206573" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32886904" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -273,7 +273,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2970451" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49840257" visible="true" weight="0.43390357" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49840257" visible="true" weight="0.41517857" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39880952" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -611,13 +611,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Huffman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        <state relative-caret-position="255">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
           <folding>
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
           </folding>
         </state>
       </provider>
