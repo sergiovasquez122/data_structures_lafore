@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="46ddf198-4fca-4c43-9636-cbf60e807c6f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Chapter_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Huffman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Huffman.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,11 +88,12 @@
       <file leaf-file-name="Huffman.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Huffman.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="311">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
-                <element signature="e#871#872#0" expanded="true" />
-                <element signature="e#934#935#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1028#1029#0" expanded="true" />
+                <element signature="e#1069#1070#0" expanded="true" />
                 <element signature="e#968#969#0" expanded="true" />
                 <element signature="e#1028#1029#0" expanded="true" />
               </folding>
@@ -262,7 +262,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12206573" />
@@ -611,11 +610,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Huffman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="311">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
             <element signature="e#968#969#0" expanded="true" />
             <element signature="e#1028#1029#0" expanded="true" />
           </folding>

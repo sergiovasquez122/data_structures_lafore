@@ -45,7 +45,14 @@ public class Huffman {
 
     public static void main(String[] args) {
         System.out.print("Enter a message: ");
-        String s = StdIn.readString();
+        String input = StdIn.readString();
 
+        int[] freq = new int[R];
+
+        for(int i = 0;i < input.length();++i){
+            freq[input.charAt(i)]++;
+        }
+
+        Node root = buildTrie(freq);
     }
 }
