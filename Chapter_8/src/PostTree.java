@@ -1,4 +1,5 @@
 import edu.princeton.cs.algs4.Stack;
+import edu.princeton.cs.algs4.StdIn;
 
 public class PostTree {
 
@@ -19,8 +20,8 @@ public class PostTree {
             if(Character.isDigit(post_fix.charAt(i))){
                 trees.push(new Node(post_fix.charAt(i)));
             } else {
-                Node C = trees.pop();
                 Node B = trees.pop();
+                Node C = trees.pop();
                 Node A = new Node(post_fix.charAt(i));
                 A.left = C;
                 A.right = B;
@@ -60,5 +61,29 @@ public class PostTree {
         postorder(root.left);
         postorder(root.right);
         System.out.print(root.data);
+    }
+
+    public void traverse(int traverseType){
+        switch (traverseType){
+            case 1: System.out.println("\nPreorder traversal: ");
+                preorder(root);
+                break;
+            case 2: System.out.print("\nInorder traversal: ");
+                inorder(root);
+                break;
+            case 3: System.out.println("\nPostorder traversal: ");
+                postorder(root);
+                break;
+        }
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        System.out.print("Enter postfix: ");
+        String input = StdIn.readLine();
+        PostTree postTree = new PostTree(input);
+        postTree.traverse(1);
+        postTree.traverse(2);
+        postTree.traverse(3);
     }
 }
