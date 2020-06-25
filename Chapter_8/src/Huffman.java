@@ -1,3 +1,5 @@
+import edu.princeton.cs.algs4.BinaryStdIn;
+import edu.princeton.cs.algs4.BinaryStdOut;
 import edu.princeton.cs.algs4.MinPQ;
 import edu.princeton.cs.algs4.StdIn;
 
@@ -54,5 +56,42 @@ public class Huffman {
         }
 
         Node root = buildTrie(freq);
+        String[] st = new String[R];
+        buildCode(st, root, "");
+
+        StringBuilder sb = new StringBuilder();
+        for(int i = 0;i < input.length();++i){
+            String code = st[input.charAt(i)];
+            sb.append(code);
+        }
+        String encoded = sb.toString();
+        System.out.println(encoded);
+
+        sb = new StringBuilder();
+        int idx = 0;
+        while(idx < encoded.length()){
+            Node x = root;
+            while(!x.isLeaf()){
+                if(encoded.charAt(idx) == '0'){
+                    x = x.left;
+                } else {
+                    x = x.right;
+                }
+                idx++;
+            }
+            sb.append(x.ch);
+        }
+        String decoded = sb.toString();
+        System.out.println(decoded);
     }
+
+    public static void buildCode(String[] st, Node x, String s){
+        if(x.isLeaf()){
+            st[x.ch] = s;
+            return;
+        }
+        buildCode(st, x.left, s + '0');
+        buildCode(st, x.right, s + '1');
+    }
+
 }
