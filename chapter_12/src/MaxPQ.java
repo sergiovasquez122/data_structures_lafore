@@ -1,14 +1,16 @@
+import edu.princeton.cs.algs4.StdIn;
+
 public class MaxPQ<Key extends Comparable<Key>> {
     private Key[] pq;
     private int N;
 
     MaxPQ(int max){
-        pq = (Key[]) new Comparable[N];
+        pq = (Key[]) new Comparable[max];
         N = 0;
     }
 
     void insert(Key v){
-        pq[++N] = v;
+        pq[N++] = v;
         swim(N);
     }
 
@@ -54,4 +56,21 @@ public class MaxPQ<Key extends Comparable<Key>> {
             k = j;
         }
     }
+
+    public static void main(String[] args) {
+        MaxPQ<Integer> pq = new MaxPQ<>(31);
+
+        pq.insert(70);
+        pq.insert(40);
+        pq.insert(60);
+        pq.insert(20);
+        pq.insert(60);
+        pq.insert(100);
+        pq.insert(80);
+        pq.insert(90);
+        pq.insert(10);
+        pq.insert(90);
+
+    }
+
 }
