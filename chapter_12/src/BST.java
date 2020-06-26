@@ -51,4 +51,14 @@ public class BST<Key extends Comparable<Key>>{
         if(x.right != null) return max(x.right);
         return x;
     }
+
+    public Key min(){
+        Node x = min(root);
+        return x != null ? x.key : null;
+    }
+
+    private Node min(Node x){
+        if(x.left != null) return min(x.left);
+        return x;
+    }
 }
