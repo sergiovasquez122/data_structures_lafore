@@ -4,6 +4,7 @@
     <list default="true" id="b4e14923-4734-43f7-a91d-744d4ece7150" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Chapter_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_6/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Chapter_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BST.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +36,8 @@
       <file leaf-file-name="BST.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="330">
+              <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
               <folding>
                 <element signature="e#225#226#0" expanded="true" />
                 <element signature="e#258#259#0" expanded="true" />
@@ -44,6 +45,12 @@
                 <element signature="e#436#437#0" expanded="true" />
                 <element signature="e#678#679#0" expanded="true" />
                 <element signature="e#701#702#0" expanded="true" />
+                <element signature="e#1167#1168#0" expanded="true" />
+                <element signature="e#1192#1193#0" expanded="true" />
+                <element signature="e#1223#1224#0" expanded="true" />
+                <element signature="e#1248#1249#0" expanded="true" />
+                <element signature="e#1479#1480#0" expanded="true" />
+                <element signature="e#1496#1497#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,7 +145,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BST">
+    <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BST" />
+      <module name="chapter_12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="MaxPQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MaxPQ" />
       <module name="chapter_12" />
@@ -167,8 +179,13 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
+    <list>
+      <item itemvalue="Application.MaxPQ" />
+      <item itemvalue="Application.BST" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BST" />
         <item itemvalue="Application.MaxPQ" />
       </list>
     </recent_temporary>
@@ -197,9 +214,9 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5007825" side_tool="true" weight="0.32886904" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31547618" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31415242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49921754" visible="true" weight="0.3437014" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49921754" weight="0.3437014" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39880952" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -261,8 +278,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="330">
+          <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
           <folding>
             <element signature="e#225#226#0" expanded="true" />
             <element signature="e#258#259#0" expanded="true" />
@@ -270,6 +287,12 @@
             <element signature="e#436#437#0" expanded="true" />
             <element signature="e#678#679#0" expanded="true" />
             <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#1167#1168#0" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+            <element signature="e#1248#1249#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
           </folding>
         </state>
       </provider>

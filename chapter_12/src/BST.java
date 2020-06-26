@@ -82,4 +82,22 @@ public class BST<Key extends Comparable<Key>>{
         if(x.left != null) return min(x.left);
         return x;
     }
+
+    public static void main(String[] args) {
+        BST<Integer> bst = new BST<>();
+        bst.insert(70);
+        bst.insert(40);
+        bst.insert(50);
+        bst.insert(60);
+        bst.insert(100);
+        bst.insert(80);
+        bst.insert(30);
+        bst.insert(10);
+        bst.insert(90);
+
+        while(!bst.isEmpty()){
+            System.out.println(bst.max());
+            bst.deleteMax();
+        }
+    }
 }
