@@ -1,3 +1,9 @@
+/**
+ * Programming exercise 12.2
+ * Write a toss method that places a new node in the heap
+ * without attempting to preserve the Max-heap invariant. Then write
+ * a restore method that restores the heap condition through out the entire heap.
+ */
 public class MaxPQ<Key extends Comparable<Key>> {
     private Key[] pq;
     private int N;
