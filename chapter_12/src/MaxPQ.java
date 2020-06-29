@@ -13,6 +13,16 @@ public class MaxPQ<Key extends Comparable<Key>> {
         N = 0;
     }
 
+    void toss(Key v){
+        pq[++N] = v;
+    }
+
+    void restoreHeap(){
+        for(int i = N / 2;i >= 1;--i){
+            sink(i);
+        }
+    }
+
     void insert(Key v){
         pq[++N] = v;
         swim(N);
@@ -82,8 +92,24 @@ public class MaxPQ<Key extends Comparable<Key>> {
         maxPQ.insert(90);
 
         while(!maxPQ.isEmpty()){
-            System.out.println(maxPQ.delMax());
+            System.out.print(maxPQ.delMax() + " ");
         }
-    }
+        System.out.println();
 
+        maxPQ.toss(70);
+        maxPQ.toss(40);
+        maxPQ.toss(50);
+        maxPQ.toss(20);
+        maxPQ.toss(60);
+        maxPQ.toss(100);
+        maxPQ.toss(80);
+        maxPQ.toss(30);
+        maxPQ.toss(10);
+        maxPQ.toss(90);
+        maxPQ.restoreHeap();
+        while(!maxPQ.isEmpty()){
+            System.out.print(maxPQ.delMax() + " ");
+        }
+        System.out.println();
+    }
 }
