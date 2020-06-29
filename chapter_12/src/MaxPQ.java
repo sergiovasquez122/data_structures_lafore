@@ -15,6 +15,11 @@ public class MaxPQ<Key extends Comparable<Key>> {
     }
 
     Key delMax(){
+        Key key = pq[1];
+        exch(1, N--);
+        pq[N + 1] = null;
+        sink(1);
+        return key;
     }
 
     boolean isEmpty(){
@@ -43,6 +48,13 @@ public class MaxPQ<Key extends Comparable<Key>> {
     }
 
     private void sink(int k){
+        while(2 * k <= N){
+            int idx = 2 * k;
+            if(idx + 1 < N && less(idx, idx + 1)) idx++;
+            if(!less(k, idx)) break;
+            exch(k, idx);
+            k = idx;
+        }
     }
 
     public static void main(String[] args) {
