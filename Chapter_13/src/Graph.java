@@ -1,3 +1,5 @@
+import edu.princeton.cs.algs4.Stack;
+
 public class Graph {
     private final int MAX_VERTS = 20;
     private Vertex vertexList[];
@@ -28,9 +30,46 @@ public class Graph {
         return -1;
     }
 
+    public void dfs(){
+        vertexList[0].wasVisited = true;
+        displayVertex(0);
+        Stack<Integer> on_stack = new Stack<>();
+        on_stack.push(0);
 
+        while(!on_stack.isEmpty()){
+            int v = getAdjUnvisitedVertex(on_stack.peek());
+            if(v == -1)
+                on_stack.pop();
+            else{
+                vertexList[v].wasVisited = true;
+                displayVertex(v);
+                on_stack.push(v);
+            }
+        }
+
+        for(int i = 0;i < nVerts;++i)
+            vertexList[i].wasVisited = false;
+    }
 
     public void displayVertex(int v){
         System.out.print(vertexList[v].label);
+    }
+
+    public static void main(String[] args) {
+        Graph theGraph = new Graph();
+        theGraph.addVertex('A');
+        theGraph.addVertex('B');
+        theGraph.addVertex('C');
+        theGraph.addVertex('D');
+        theGraph.addVertex('E');
+
+        theGraph.addEdge(0, 1);
+        theGraph.addEdge(1, 2);
+        theGraph.addEdge(0, 3);
+        theGraph.addEdge(3, 4);
+
+        System.out.print("Visits: ");
+        theGraph.dfs();
+        System.out.println();
     }
 }
