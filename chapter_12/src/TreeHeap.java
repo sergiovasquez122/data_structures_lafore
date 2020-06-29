@@ -22,15 +22,21 @@ public class TreeHeap {
     }
 
     public Node insert(Node x, String bitString,int idx, int val){
-        if(x == null) return new Node(val);
-        if(bitString.charAt(idx) == '0') {
+        if(x == null) {
+            return new Node(val);
+        }
+        if(bitString.length() == idx){
+            x.val = val;
+        } else if(bitString.charAt(idx) == '0') {
             Node left = insert(x.left, bitString, idx + 1, val);
             x.left = left;
             left.parent = x;
+            swim(left);
         } else {
             Node right = insert(x.right, bitString, idx + 1, val);
             x.right = right;
             right.parent = x ;
+            swim(right);
         }
         return x;
     }
@@ -133,5 +139,7 @@ public class TreeHeap {
         treeHeap.insert(14);
         treeHeap.displayHeap();
         System.out.println(treeHeap.rightmostNode().val);
+        treeHeap.sink(treeHeap.root);
+        treeHeap.displayHeap();
     }
 }
