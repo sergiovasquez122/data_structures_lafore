@@ -19,6 +19,17 @@ public class Graph {
         adjMat[end][start] = 1;
     }
 
+    public int getAdjUnvisitedVertex(int v){
+        for(int i = 0;i < nVerts;++i){
+            if(adjMat[v][i] == 1 && !vertexList[i].wasVisited){
+               return i;
+            }
+        }
+        return -1;
+    }
+
+
+
     public void displayVertex(int v){
         System.out.print(vertexList[v].label);
     }
