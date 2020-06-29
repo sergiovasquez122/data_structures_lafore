@@ -1,3 +1,5 @@
+import edu.princeton.cs.algs4.Stack;
+
 /**
  * 12.5 Write a heap using a binary tree structure.
  */
@@ -14,7 +16,23 @@ public class TreeHeap {
     }
 
     public void insert(int val){
+        String bitString = Integer.toBinaryString(N + 1);
+        root = insert(root, bitString, 1, val);
+        N++;
+    }
 
+    public Node insert(Node x, String bitString,int idx, int val){
+        if(x == null) return new Node(val);
+        if(bitString.charAt(idx) == '0') {
+            Node left = insert(x.left, bitString, idx + 1, val);
+            x.left = left;
+            left.parent = x;
+        } else {
+            Node right = insert(x.right, bitString, idx + 1, val);
+            x.right = right;
+            right.parent = x ;
+        }
+        return x;
     }
 
     public int deleteMax(){
@@ -24,5 +42,64 @@ public class TreeHeap {
     private class Node{
         Node parent, left, right;
         int val;
+        Node(int val){this.val = val;}
+    }
+
+    public void displayHeap(){
+        System.out.println("TreeHeap: ");
+        Stack<Node> globalStack = new Stack<>();
+        globalStack.push(root);
+        int blanks = 32;
+        boolean isRowEmpty = false;
+        System.out.println("...................................................................");
+
+        while(!isRowEmpty){
+            Stack<Node> localStack = new Stack<>();
+            isRowEmpty = true;
+            for(int j = 0;j < blanks;++j)
+                System.out.print(" ");
+
+            while(!globalStack.isEmpty()){
+                Node temp = globalStack.pop();
+                if(temp != null){
+                    System.out.print(temp.val);
+                    localStack.push(temp.left);
+                    localStack.push(temp.right);
+                    isRowEmpty = !(temp.left != null || temp.right != null);
+                } else {
+                    System.out.print("--");
+                    localStack.push(null);
+                    localStack.push(null);
+                }
+                for(int i= 0;i < blanks * 2 - 2;++i)
+                    System.out.print(' ');
+            }
+            System.out.println();
+            blanks /= 2;
+            while(!localStack.isEmpty()) globalStack.push(localStack.pop());
+        }
+        System.out.println("...................................................................");
+    }
+
+
+    public static void main(String[] args) {
+        TreeHeap treeHeap = new TreeHeap();
+        treeHeap.insert(0);
+        treeHeap.insert(1);
+        treeHeap.insert(2);
+        treeHeap.insert(3);
+        treeHeap.insert(4);
+        treeHeap.insert(5);
+        treeHeap.insert(6);
+        treeHeap.insert(7);
+        treeHeap.insert(8);
+        treeHeap.insert(9);
+        treeHeap.insert(10);
+        treeHeap.insert(11);
+        treeHeap.insert(12);
+        treeHeap.insert(13);
+        treeHeap.insert(14);
+        treeHeap.displayHeap();
+
     }
 }
