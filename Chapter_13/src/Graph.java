@@ -59,17 +59,18 @@ public class Graph {
         on_queue.enqueue(0);
 
         while(!on_queue.isEmpty()){
-            int v = getAdjUnvisitedVertex(on_queue.peek());
-            if(v == -1)
-                on_queue.dequeue();
-            else{
-                vertexList[v].wasVisited = true;
-                displayVertex(v);
-                on_queue.enqueue(v);
+            int v1 = on_queue.dequeue();
+            int v2;
+            while((v2 = getAdjUnvisitedVertex(v1)) != -1){
+                vertexList[v2].wasVisited = true;
+                displayVertex(v2);
+                on_queue.enqueue(v2);
             }
         }
-        for(int i = 0;i < nVerts;++i)
+
+        for(int i = 0;i < nVerts;++i){
             vertexList[i].wasVisited = false;
+        }
     }
 
     public void displayVertex(int v){
