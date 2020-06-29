@@ -73,6 +73,27 @@ public class Graph {
         }
     }
 
+    public void mst(){
+        vertexList[0].wasVisited = true;
+        Stack<Integer> on_stack = new Stack<>();
+        on_stack.push(0);
+        while(!on_stack.isEmpty()){
+            int v = getAdjUnvisitedVertex(on_stack.peek());
+            if(v == -1) on_stack.pop();
+            else{
+                int current_vertex = on_stack.peek();
+                displayVertex(current_vertex);
+                displayVertex(v);
+                System.out.print(" ");
+                on_stack.push(v);
+                vertexList[v].wasVisited = true;
+            }
+        }
+        for(int i = 0;i < nVerts;++i){
+            vertexList[i].wasVisited = false;
+        }
+    }
+
     public void displayVertex(int v){
         System.out.print(vertexList[v].label);
     }
@@ -97,5 +118,8 @@ public class Graph {
         System.out.print("Visits: ");
         theGraph.bfs();
         System.out.println();
+
+        System.out.print("Minimum spanning tree: ");
+        theGraph.mst();
     }
 }
