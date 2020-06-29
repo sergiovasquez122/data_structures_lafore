@@ -45,6 +45,26 @@ public class TreeHeap {
         Node(int val){this.val = val;}
     }
 
+    public Node rightmostNode(){
+        String bitString = Integer.toBinaryString(N);
+        int idx = 1;
+        Node iter = root;
+        while(idx != bitString.length()){
+            iter = bitString.charAt(idx) == '0' ? iter.left : iter.right;
+            idx++;
+        }
+        return iter;
+    }
+
+    public void swim(Node x){
+        while(x.parent != null && x.parent.val < x.val){
+            int t = x.parent.val;
+            x.parent.val = x.val;
+            x.val = t;
+            x = x.parent;
+        }
+    }
+
     public void displayHeap(){
         System.out.println("TreeHeap: ");
         Stack<Node> globalStack = new Stack<>();
@@ -100,6 +120,6 @@ public class TreeHeap {
         treeHeap.insert(13);
         treeHeap.insert(14);
         treeHeap.displayHeap();
-
+        System.out.println(treeHeap.rightmostNode().val);
     }
 }

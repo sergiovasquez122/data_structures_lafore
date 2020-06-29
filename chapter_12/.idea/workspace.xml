@@ -76,8 +76,8 @@
       <file leaf-file-name="TreeHeap.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TreeHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+            <state relative-caret-position="330">
+              <caret line="113" column="55" selection-start-line="113" selection-start-column="55" selection-end-line="113" selection-end-column="55" />
               <folding>
                 <element signature="e#145#146#0" expanded="true" />
                 <element signature="e#169#170#0" expanded="true" />
@@ -285,7 +285,7 @@
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3139881" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49921754" weight="0.32886904" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1228482" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1228482" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -416,8 +416,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TreeHeap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+        <state relative-caret-position="330">
+          <caret line="113" column="55" selection-start-line="113" selection-start-column="55" selection-end-line="113" selection-end-column="55" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
             <element signature="e#169#170#0" expanded="true" />
