@@ -1,8 +1,8 @@
-public class minPq<Key extends Comparable<Key>> {
+public class MaxPQ<Key extends Comparable<Key>> {
     private Key[] pq;
     private int N;
 
-    minPq(int max){
+    MaxPQ(int max){
         pq = (Key[]) new Comparable[max + 1];
         N = 0;
     }
@@ -56,21 +56,21 @@ public class minPq<Key extends Comparable<Key>> {
     }
 
     public static void main(String[] args) {
-        minPq<Integer> minPq = new minPq<>(32);
+        MaxPQ<Integer> maxPQ = new MaxPQ<>(32);
 
-        minPq.insert(70);
-        minPq.insert(40);
-        minPq.insert(50);
-        minPq.insert(20);
-        minPq.insert(60);
-        minPq.insert(100);
-        minPq.insert(80);
-        minPq.insert(30);
-        minPq.insert(10);
-        minPq.insert(90);
+        maxPQ.insert(70);
+        maxPQ.insert(40);
+        maxPQ.insert(50);
+        maxPQ.insert(20);
+        maxPQ.insert(60);
+        maxPQ.insert(100);
+        maxPQ.insert(80);
+        maxPQ.insert(30);
+        maxPQ.insert(10);
+        maxPQ.insert(90);
 
-        while(!minPq.isEmpty()){
-            System.out.println(minPq.delMax());
+        while(!maxPQ.isEmpty()){
+            System.out.println(maxPQ.delMax());
         }
     }
 
