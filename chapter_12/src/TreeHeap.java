@@ -65,6 +65,18 @@ public class TreeHeap {
         }
     }
 
+    public void sink(Node x){
+        while(x.left != null){
+            Node swapNode = x.left;
+            if(x.right != null && swapNode.val < x.right.val) swapNode = x.right;
+            if(swapNode.val < x.val) break;
+            int t = x.val;
+            x.val = swapNode.val;
+            swapNode.val = t;
+            x = swapNode;
+        }
+    }
+
     public void displayHeap(){
         System.out.println("TreeHeap: ");
         Stack<Node> globalStack = new Stack<>();
