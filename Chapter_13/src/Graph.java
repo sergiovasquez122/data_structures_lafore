@@ -1,3 +1,4 @@
+import edu.princeton.cs.algs4.Queue;
 import edu.princeton.cs.algs4.Stack;
 
 public class Graph {
@@ -51,6 +52,26 @@ public class Graph {
             vertexList[i].wasVisited = false;
     }
 
+    public void bfs(){
+        vertexList[0].wasVisited = true;
+        displayVertex(0);
+        Queue<Integer> on_queue = new Queue<>();
+        on_queue.enqueue(0);
+
+        while(!on_queue.isEmpty()){
+            int v = getAdjUnvisitedVertex(on_queue.peek());
+            if(v == -1)
+                on_queue.dequeue();
+            else{
+                vertexList[v].wasVisited = true;
+                displayVertex(v);
+                on_queue.enqueue(v);
+            }
+        }
+        for(int i = 0;i < nVerts;++i)
+            vertexList[i].wasVisited = false;
+    }
+
     public void displayVertex(int v){
         System.out.print(vertexList[v].label);
     }
@@ -70,6 +91,10 @@ public class Graph {
 
         System.out.print("Visits: ");
         theGraph.dfs();
+        System.out.println();
+
+        System.out.print("Visits: ");
+        theGraph.bfs();
         System.out.println();
     }
 }
