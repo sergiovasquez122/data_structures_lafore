@@ -1,10 +1,8 @@
-import edu.princeton.cs.algs4.StdIn;
-
-public class MaxPQ<Key extends Comparable<Key>> {
+public class minPq<Key extends Comparable<Key>> {
     private Key[] pq;
     private int N;
 
-    MaxPQ(int max){
+    minPq(int max){
         pq = (Key[]) new Comparable[max + 1];
         N = 0;
     }
@@ -58,7 +56,22 @@ public class MaxPQ<Key extends Comparable<Key>> {
     }
 
     public static void main(String[] args) {
+        minPq<Integer> minPq = new minPq<>(32);
 
+        minPq.insert(70);
+        minPq.insert(40);
+        minPq.insert(50);
+        minPq.insert(20);
+        minPq.insert(60);
+        minPq.insert(100);
+        minPq.insert(80);
+        minPq.insert(30);
+        minPq.insert(10);
+        minPq.insert(90);
+
+        while(!minPq.isEmpty()){
+            System.out.println(minPq.delMax());
+        }
     }
 
 }
