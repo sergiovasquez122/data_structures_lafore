@@ -42,7 +42,14 @@ public class TreeHeap {
     }
 
     public int deleteMax(){
-        return 0;
+        int val = root.val;
+        Node rightMostNode = rightmostNode();
+        int t = root.val;
+        root.val = rightMostNode.val;
+        rightMostNode.val = t;
+        sink(root);
+        N--;
+        return val;
     }
 
     private class Node{
@@ -60,6 +67,13 @@ public class TreeHeap {
             idx++;
         }
         return iter;
+    }
+
+    public void change(Node x, int newValue){
+        int oldValue = x.val;
+        x.val = newValue;
+        if(oldValue < newValue) swim(x);
+        else sink(x);
     }
 
     public void swim(Node x){
@@ -141,5 +155,7 @@ public class TreeHeap {
         System.out.println(treeHeap.rightmostNode().val);
         treeHeap.sink(treeHeap.root);
         treeHeap.displayHeap();
+        System.out.println(treeHeap.deleteMax());
+        System.out.println(treeHeap.deleteMax());
     }
 }
