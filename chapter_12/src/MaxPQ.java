@@ -12,6 +12,10 @@ public class MaxPQ<Key extends Comparable<Key>> {
         swim(N);
     }
 
+    Key peek(){
+        return pq[1];
+    }
+
     Key delMax(){
         Key key = pq[1];
         exch(1, N--);
@@ -23,6 +27,8 @@ public class MaxPQ<Key extends Comparable<Key>> {
     boolean isEmpty(){
         return N == 0;
     }
+
+
 
     int size(){
         return N;
