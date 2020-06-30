@@ -36,4 +36,9 @@ public class DAG {
         }
         return -1;
     }
+
+    public void moveRowUp(int row, int length){
+        for(int col = 0;col < length;++col)
+            adjMat[row][col] = adjMat[row + 1][col];
+    }
 }
