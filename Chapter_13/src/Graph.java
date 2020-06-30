@@ -94,6 +94,26 @@ public class Graph {
         }
     }
 
+    public void mst_bst(){
+        vertexList[0].wasVisited = true;
+        Queue<Integer> on_queue = new Queue<>();
+        on_queue.enqueue(0);
+        while(!on_queue.isEmpty()){
+            int v1 = on_queue.dequeue();
+            int v2;
+            while((v2 = getAdjUnvisitedVertex(v1)) != -1){
+                displayVertex(v1);
+                displayVertex(v2);
+                System.out.print(" ");
+                vertexList[v2].wasVisited = true;
+                on_queue.enqueue(v2);
+            }
+        }
+        for(int i = 0;i < nVerts;++i){
+            vertexList[i].wasVisited = false;
+        }
+    }
+
     public void displayVertex(int v){
         System.out.print(vertexList[v].label);
     }
@@ -121,5 +141,9 @@ public class Graph {
 
         System.out.print("Minimum spanning tree: ");
         theGraph.mst();
+        System.out.println();
+
+        System.out.print("Minimum spanning tree using bfs: ");
+        theGraph.mst_bst();
     }
 }
