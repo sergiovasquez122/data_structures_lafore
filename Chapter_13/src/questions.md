@@ -28,6 +28,6 @@
     2. vertices listed in order of increasing number of edges from the beginning vertex
     3. vertices arranged so A precedes B, which precedes C, an so on
     4. vertices listed so that ones later in the list are downstreams from the ones earlier
-13. What is a DAG?
-14. can a tree have cycles?
-15. What evidence does the topological sort use to deduce that a graph has a cycle?
+13. What is a DAG? **Directed acylic graph**
+14. can a tree have cycles?**no**
+15. What evidence does the topological sort use to deduce that a graph has a cycle? **if all vertices in a graph have a vertex**
