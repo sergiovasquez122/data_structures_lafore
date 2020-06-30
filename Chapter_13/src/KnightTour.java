@@ -40,4 +40,17 @@ public class KnightTour {
     private boolean feasible(boolean marked[][], Edge e){
         return e.getX() >= 0 && e.getX() < marked.length && e.getY() >= 0 && e.getY() < marked[e.getX()].length && !marked[e.getX()][e.getY()];
     }
+
+    public Iterable<Edge> getTour(){
+        return tour;
+    }
+
+    public static void main(String[] args) {
+        KnightTour knightTour = new KnightTour(5, 0, 0);
+        System.out.println(knightTour.tourExists);
+        for(Edge e : knightTour.getTour()){
+            System.out.print("(" + e.getX() + "," + e.getY() + ") ");
+        }
+        System.out.println();
+    }
 }

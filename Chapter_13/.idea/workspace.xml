@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e79b8ee1-dc62-4a7d-b1c9-8161c506c230" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Edge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/KnightTour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KnightTour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chapter_12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_12/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -22,8 +21,12 @@
       <file leaf-file-name="KnightTour.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/KnightTour.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+            <state relative-caret-position="379">
+              <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+              <folding>
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DAG">
+  <component name="RunManager" selected="Application.KnightTour">
     <configuration name="ConnectivityTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConnectivityTable" />
       <module name="Chapter_13" />
@@ -150,6 +153,11 @@
     </configuration>
     <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Graph" />
+      <module name="Chapter_13" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="KnightTour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KnightTour" />
       <module name="Chapter_13" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -181,9 +189,11 @@
       <item itemvalue="Application.DAG" />
       <item itemvalue="Application.DFS" />
       <item itemvalue="Application.ConnectivityTable" />
+      <item itemvalue="Application.KnightTour" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KnightTour" />
         <item itemvalue="Application.DAG" />
         <item itemvalue="Application.Graph" />
         <item itemvalue="Application.ConnectivityTable" />
@@ -209,7 +219,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12206573" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12206573" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32970452" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -217,7 +227,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3281493" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3139881" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3139881" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -377,8 +387,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/KnightTour.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+        <state relative-caret-position="379">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+          <folding>
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
