@@ -47,9 +47,10 @@ public class KnightTour {
 
     public static void main(String[] args) {
         KnightTour knightTour = new KnightTour(5, 0, 0);
-        System.out.println(knightTour.tourExists);
-        for(Edge e : knightTour.getTour()){
-            System.out.print("(" + e.getX() + "," + e.getY() + ") ");
+        if(knightTour.tourExist()) {
+            for (Edge e : knightTour.getTour()) {
+                System.out.print("(" + e.getX() + "," + e.getY() + ") ");
+            }
         }
         System.out.println();
     }
