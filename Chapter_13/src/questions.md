@@ -1,4 +1,4 @@
-1. In a graph, an __ connects two __
+1. In a graph, an **edge** connects two **vertices**
 2. How do you tell, by looking at its adjancey matrix, how many edges there are in an undirected graph
 3. In a game simulation, what graph entity corresponds to a choice about what choice to make?
 4. A directed graph is on in which
