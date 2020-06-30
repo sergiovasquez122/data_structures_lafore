@@ -97,7 +97,7 @@ public class DAG {
         for(int y = 0;y < nVerts;++y){
             for(int x = 0;x < nVerts;++x){
                 if(adjMat[y][x] == 1){
-                    for(int z = 0;z < 20;++z){
+                    for(int z = 0;z < nVerts;++z){
                         if(adjMat[z][y] == 1){
                             adjMat[z][x] = 1;
                         }
