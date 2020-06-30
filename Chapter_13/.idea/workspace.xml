@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e79b8ee1-dc62-4a7d-b1c9-8161c506c230" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/questions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/questions.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chapter_12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_12/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DAG.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DAG.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DAG.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
@@ -52,12 +53,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="questions.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="questions.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/questions.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="349">
-                <caret line="30" column="78" selection-start-line="30" selection-start-column="78" selection-end-line="30" selection-end-column="78" />
+              <first_editor relative-caret-position="45">
+                <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
               </first_editor>
               <second_editor />
             </state>
@@ -81,8 +82,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/Vertex.java" />
         <option value="$PROJECT_DIR$/src/Graph.java" />
-        <option value="$PROJECT_DIR$/src/questions.md" />
         <option value="$PROJECT_DIR$/src/DAG.java" />
+        <option value="$PROJECT_DIR$/src/questions.md" />
       </list>
     </option>
   </component>
@@ -196,6 +197,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="715" y="24" width="651" height="744" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24920128" />
@@ -261,13 +263,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/questions.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="349">
-            <caret line="30" column="78" selection-start-line="30" selection-start-column="78" selection-end-line="30" selection-end-column="78" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/DAG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
+          <folding>
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -281,18 +288,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
-          <folding>
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/src/questions.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
