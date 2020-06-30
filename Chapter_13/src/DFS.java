@@ -21,6 +21,13 @@ public class DFS {
         return marked[v];
     }
 
+    public void display(){
+        for(int i = 0;i < marked.length;++i){
+            if(marked[i]) System.out.print(i + " ");
+        }
+        System.out.println();
+    }
+
     public static void main(String[] args) {
         Digraph digraph = new Digraph(5);
         digraph.addEdge(0, 1);
@@ -29,7 +36,6 @@ public class DFS {
         digraph.addEdge(3, 4);
 
         DFS dfs = new DFS(digraph, 0);
-        for(int i = 0;i < digraph.V();++i)
-            if(dfs.marked[i]) System.out.print(i + " ");
+        dfs.display();
     }
 }
