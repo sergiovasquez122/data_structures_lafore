@@ -1,14 +1,18 @@
 import edu.princeton.cs.algs4.Queue;
 
+import java.util.ArrayList;
+
 /**
  * programming exercise 12.5 implement the knight tour
  */
 public class KnightTour {
     private boolean marked[][];
-    private Queue<Edge> tour;
+    private ArrayList<Edge> tour;
     private boolean tourExists;
+    private int N;
     public KnightTour(int N, int x, int y){
-        tour = new Queue<>();
+        this.N = N;
+        tour = new ArrayList<>();
         marked = new boolean[N][N];
         tourExists = tour(marked, tour, new Edge(x, y));
     }
@@ -17,9 +21,9 @@ public class KnightTour {
         return tourExists;
     }
 
-    private boolean tour(boolean marked[][], Queue<Edge> tour, Edge e){
+    private boolean tour(boolean marked[][], ArrayList<Edge> tour, Edge e){
         if(!feasible(marked, e)) return false;
-        tour.enqueue(e);
+        tour.add(e);
         if(tour.size() == marked.length * marked.length){
             return true;
         }
@@ -33,6 +37,7 @@ public class KnightTour {
                 return true;
             }
         }
+        tour.remove(tour.size() - 1);
         marked[e.getX()][e.getY()] = false;
         return false;
     }
@@ -45,6 +50,23 @@ public class KnightTour {
         return tour;
     }
 
+    public void displayMovements(){
+        int movements[][] = new int[N][N];
+        int counter = 1;
+        if(tourExist()){
+            for(Edge e : getTour()){
+                movements[e.getX()][e.getY()] = counter++;
+            }
+        }
+
+        for(int i = 0;i < N; ++i){
+            for(int j = 0;j < N;++j){
+                System.out.print(movements[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
         KnightTour knightTour = new KnightTour(5, 0, 0);
         if(knightTour.tourExist()) {
@@ -53,5 +75,7 @@ public class KnightTour {
             }
         }
         System.out.println();
+
+        knightTour.displayMovements();
     }
 }
