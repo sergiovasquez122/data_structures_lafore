@@ -6,8 +6,9 @@
     2. you must go rom vertex A to vertex B to vertex C and so on
     3. you can go in only one direction from on given vertex to another
     4. you can go in only one direction on any given path
-    **c**
+    **d**
 5. If an adjacency matrix has rows {0, 1, 0, 0}, {1, 0, 1, 1}, {0,1, 0, 0}, and {0, 1, 0, 0} what is the corresponding adjaceny list
+**a:b,b:a->c->d,c:b,d:b**
 6. A minimum spanning tree is a graph in which
     1. the number of edges connecting all the vertices is as small as possible
     2. the number of edges is equal to the number of vertices
@@ -20,6 +21,7 @@
     2. the number of paths is greater than the number of vertices
     3. the number of edges is equal to the number of vertices
     4. the number of paths is less than the number of edges
+    **3**
 9. A DAG is a graph with no cycles
 10. Can a minimum spanning tree for an undirected graph have cycles?**false**
 11. True or False: There may be many correct topological sorts for a given graph**true**
@@ -28,6 +30,7 @@
     2. vertices listed in order of increasing number of edges from the beginning vertex
     3. vertices arranged so A precedes B, which precedes C, an so on
     4. vertices listed so that ones later in the list are downstreams from the ones earlier
+    **4**
 13. What is a DAG? **Directed acylic graph**
 14. can a tree have cycles?**no**
 15. What evidence does the topological sort use to deduce that a graph has a cycle? **if all vertices in a graph have a vertex**
