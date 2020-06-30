@@ -89,6 +89,10 @@ public class DAG {
         System.out.println();
     }
 
+    /**
+     * implement floydWarshall to find the
+     * the transitive closure of a graph
+     */
     public void floydWarshall(){
         for(int y = 0;y < nVerts;++y){
             for(int x = 0;x < nVerts;++x){
