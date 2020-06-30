@@ -79,24 +79,56 @@ public class DAG {
             adjMat[row][col] = adjMat[row][col + 1];
     }
 
+    public void displayAdj(){
+        for(int i = 0;i < nVerts;++i){
+            for(int j = 0;j < nVerts;++j){
+                System.out.print(adjMat[i][j] + " ");
+            }
+            System.out.println();
+        }
+        System.out.println();
+    }
+
+    public void floydWarshall(){
+        for(int y = 0;y < nVerts;++y){
+            for(int x = 0;x < nVerts;++x){
+                if(adjMat[y][x] == 1){
+                    for(int z = 0;z < 20;++z){
+                        if(adjMat[z][y] == 1){
+                            adjMat[z][x] = 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     public static void main(String[] args) {
         DAG dag = new DAG();
         dag.addVertex('A');
         dag.addVertex('B');
         dag.addVertex('C');
+        dag.addEdge(0, 1);
+        dag.addEdge(1, 2);
+        dag.displayAdj();
+        dag.floydWarshall();
+        dag.displayAdj();
+
+        dag = new DAG();
+        dag.addVertex('A');
+        dag.addVertex('B');
+        dag.addVertex('C');
         dag.addVertex('D');
         dag.addVertex('E');
-        dag.addVertex('F');
-        dag.addVertex('G');
-        dag.addVertex('H');
-        dag.addEdge(0, 3);
-        dag.addEdge(0, 4);
+
+        dag.addEdge(0, 2);
+        dag.addEdge(1, 0);
         dag.addEdge(1, 4);
-        dag.addEdge(2, 5);
-        dag.addEdge(3, 6);
-        dag.addEdge(4, 6);
-        dag.addEdge(5, 7);
-        dag.addEdge(6, 7);
-        dag.topo();
+        dag.addEdge(3, 4);
+        dag.addEdge(4, 2);
+        dag.displayAdj();
+        dag.floydWarshall();
+        dag.displayAdj();
+
     }
 }
