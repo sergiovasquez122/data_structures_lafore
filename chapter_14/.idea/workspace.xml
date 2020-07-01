@@ -4,6 +4,7 @@
     <list default="true" id="176475db-94c4-4b2a-b59a-1bd6376bedfd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Chapter_13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_13/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chapter_12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_12/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LazyPrimMST.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LazyPrimMST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LazyPrimMST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="214">
               <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -61,6 +62,18 @@
                 <element signature="e#976#977#0" expanded="true" />
                 <element signature="e#1005#1006#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Questions.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Questions.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="348">
+                <caret line="30" column="76" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -83,6 +96,7 @@
         <option value="$PROJECT_DIR$/src/Edge.java" />
         <option value="$PROJECT_DIR$/src/EdgeWeightedGraph.java" />
         <option value="$PROJECT_DIR$/src/LazyPrimMST.java" />
+        <option value="$PROJECT_DIR$/src/Questions.md" />
       </list>
     </option>
   </component>
@@ -179,13 +193,13 @@
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.50958467" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.50958467" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32970452" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32970452" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -234,7 +248,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LazyPrimMST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="214">
           <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -243,6 +257,16 @@
             <element signature="e#976#977#0" expanded="true" />
             <element signature="e#1005#1006#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Questions.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="348">
+            <caret line="30" column="76" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
