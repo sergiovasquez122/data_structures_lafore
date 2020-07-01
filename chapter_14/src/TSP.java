@@ -13,10 +13,17 @@ public class TSP {
         for(int i = 0;i < G.V();++i)
             path[i] = i;
         ArrayList<ArrayList<Integer>> result = generatePermutation(path);
-        System.out.println(result);
+        for(ArrayList<Integer>  current_path: result){
+            double running_sum = 0;
+            for(int i = 1;i < current_path.size();++i){
+                running_sum += G.weight(current_path.get(i - 1), current_path.get(i));
+            }
+            running_sum += G.weight(current_path.get(current_path.size() - 1), current_path.get(0));
+            weight = Double.min(weight, running_sum);
+        }
     }
 
-    public void permute(ArrayList<ArrayList<Integer>> result,int[] a, int begin){
+    private void permute(ArrayList<ArrayList<Integer>> result,int[] a, int begin){
         if(begin == a.length - 1){
             ArrayList<Integer> partial = new ArrayList<>();
             for(int e : a) partial.add(e);
@@ -30,13 +37,13 @@ public class TSP {
         }
     }
 
-    public ArrayList<ArrayList<Integer>> generatePermutation(int[] a){
+    private ArrayList<ArrayList<Integer>> generatePermutation(int[] a){
         ArrayList<ArrayList<Integer>> result = new ArrayList<>();
         permute(result, a, 0);
         return result;
     }
 
-    public void swap(int[] a, int i, int j){
+    private void swap(int[] a, int i, int j){
         int t = a[i];
         a[i] = a[j];
         a[j] = t;
