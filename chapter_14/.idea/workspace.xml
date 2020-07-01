@@ -15,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Edge.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Edge.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Edge.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
@@ -27,6 +27,23 @@
                 <element signature="e#371#372#0" expanded="true" />
                 <element signature="e#761#762#0" expanded="true" />
                 <element signature="e#786#787#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EdgeWeightedGraph.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/EdgeWeightedGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,6 +65,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Edge.java" />
+        <option value="$PROJECT_DIR$/src/EdgeWeightedGraph.java" />
       </list>
     </option>
   </component>
@@ -177,6 +195,21 @@
             <element signature="e#371#372#0" expanded="true" />
             <element signature="e#761#762#0" expanded="true" />
             <element signature="e#786#787#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EdgeWeightedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
           </folding>
         </state>
       </provider>
