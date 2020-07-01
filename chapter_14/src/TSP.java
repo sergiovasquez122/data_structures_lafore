@@ -17,15 +17,15 @@ public class TSP {
     }
 
     public void permute(ArrayList<ArrayList<Integer>> result,int[] a, int begin){
-        if(begin == a.length){
+        if(begin == a.length - 1){
             ArrayList<Integer> partial = new ArrayList<>();
             for(int e : a) partial.add(e);
             result.add(partial);
         } else {
             for(int i = begin;i < a.length;++i){
-                swap(a, i, i + 1);
+                swap(a, begin, i);
                 permute(result, a, i + 1);
-                swap(a, i, i + 1);
+                swap(a, begin, i);
             }
         }
     }
@@ -38,8 +38,8 @@ public class TSP {
 
     public void swap(int[] a, int i, int j){
         int t = a[i];
-        a[i] = j;
-        a[j] = i;
+        a[i] = a[j];
+        a[j] = t;
     }
 
     public boolean hasPath(){
@@ -48,5 +48,10 @@ public class TSP {
 
     public double weight(){
         return weight;
+    }
+
+    public static void main(String[] args) {
+        Graph G = new Graph(5);
+        TSP tsp = new TSP(G);
     }
 }
