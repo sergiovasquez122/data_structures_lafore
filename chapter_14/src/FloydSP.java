@@ -16,12 +16,8 @@ public class FloydSP {
 
         for(int i = 0;i < G.V();++i){
             for(int j = 0;j < G.V();++j){
-                if(hasPath(i, j)){
                     for(int k = 0;k < G.V();++k){
-                        if(hasPath(k, i)){
-                            distTo[k][j] = Double.min(distTo[k][j],distTo[k][i]+ distTo[i][j]);
-                        }
-                    }
+                        distTo[k][j] = Double.min(distTo[k][j],distTo[k][i]+ distTo[i][j]);
                 }
             }
         }
