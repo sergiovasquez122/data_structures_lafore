@@ -11,7 +11,7 @@ public class Graph {
 
         for(int i = 0;i < V;++i)
             for(int j = 0;j < V;++j)
-                adjMat[i][j] = Double.POSITIVE_INFINITY;
+                adjMat[i][j] = i == j ? 0 : Double.POSITIVE_INFINITY;
     }
 
     public void addEdge(int v, int w, double weight){
@@ -30,6 +30,17 @@ public class Graph {
 
     public double weight(int v, int w){
         return adjMat[v][w];
+    }
+
+    public String toString(){
+        StringBuilder sb = new StringBuilder();
+        for(int i = 0;i < adjMat.length;++i){
+            for(int j = 0;j < adjMat.length;++j){
+                sb.append(String.format("%.2f%4s", adjMat[i][j] == Double.POSITIVE_INFINITY ? -1.0 : adjMat[i][j], ""));
+            }
+            sb.append("\n");
+        }
+        return sb.toString();
     }
 
     public boolean hasPath(int v, int w){
