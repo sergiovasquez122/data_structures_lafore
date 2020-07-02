@@ -8,7 +8,7 @@ import java.util.Locale;
 public class FloydSP {
     private double[][] distTo;
 
-    public FloydSP(Graph G){
+    public FloydSP(DirectedGraph G){
         distTo = new double[G.V()][G.V()];
         for(int i = 0;i < G.V();++i)
             for(int j = 0;j < G.V();++j)
@@ -43,7 +43,7 @@ public class FloydSP {
     }
 
     public static void main(String[] args) {
-        Graph G = new Graph(6);
+        DirectedGraph G = new DirectedGraph(6);
         G.addEdge(1, 2, 1);
         G.addEdge(1, 4, 1);
         G.addEdge(1, 5, 5);

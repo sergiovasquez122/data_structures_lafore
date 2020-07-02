@@ -16,7 +16,6 @@ public class DirectedGraph {
 
     public void addEdge(int v, int w, double weight){
         adjMat[v][w] = weight;
-        adjMat[w][v] = weight;
         E++;
     }
 
