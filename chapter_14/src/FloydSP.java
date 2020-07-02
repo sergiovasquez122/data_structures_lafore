@@ -43,27 +43,17 @@ public class FloydSP {
     }
 
     public static void main(String[] args) {
-        Graph G = new Graph(5);
-        G.addEdge(0, 1, 1);
-        G.addEdge(0, 2, 3);
-        G.addEdge(0, 3, 1);
-        G.addEdge(0, 4, 4);
-        G.addEdge(1, 0, 8);
-        G.addEdge(1, 2, 3);
-        G.addEdge(1, 3, 2);
-        G.addEdge(1, 4, 5);
-        G.addEdge(2, 0, 10);
-        G.addEdge(2, 1, 11);
-        G.addEdge(2, 3, 4);
-        G.addEdge(2, 4, 7);
-        G.addEdge(3, 0, 6);
-        G.addEdge(3, 1, 7);
-        G.addEdge(3, 2, 2);
-        G.addEdge(3, 4, 5);
-        G.addEdge(4, 0, 3);
-        G.addEdge(4, 1, 4);
-        G.addEdge(4, 2, 6);
-        G.addEdge(4, 3, 4);
+        Graph G = new Graph(6);
+        G.addEdge(1, 2, 1);
+        G.addEdge(1, 4, 1);
+        G.addEdge(1, 5, 5);
+        G.addEdge(2, 1, 9);
+        G.addEdge(2, 3, 3);
+        G.addEdge(2, 4, 2);
+        G.addEdge(3, 4, 4);
+        G.addEdge(4, 3, 2);
+        G.addEdge(4, 5, 3);
+        G.addEdge(5, 1, 3);
         FloydSP floydSP = new FloydSP(G);
         System.out.println(floydSP);
     }
