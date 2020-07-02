@@ -19,7 +19,9 @@ public class HC {
                 int w = current_path.get(i);
                 validCycle = validCycle && G.hasPath(v, w);
             }
+            validCycle = validCycle && G.hasPath(current_path.get(current_path.size() - 1), current_path.get(0));
             if(validCycle){
+                current_path.add(current_path.get(0));
                 cycles.add(current_path);
             }
         }
@@ -50,5 +52,17 @@ public class HC {
         int t = a[i];
         a[i] = a[j];
         a[j] = t;
+    }
+
+    public static void main(String[] args) {
+        Graph G = new Graph(5);
+        G.addEdge(0, 1, 91);
+        G.addEdge(0, 2, 62);
+        G.addEdge(0, 3, 55);
+        G.addEdge(1, 2, 44);
+        G.addEdge(1, 4, 31);
+        G.addEdge(2, 3, 52);
+        G.addEdge(2, 4, 45);
+        HC hc = new HC(G);
     }
 }
