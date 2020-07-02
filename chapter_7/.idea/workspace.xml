@@ -10,6 +10,33 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ArraySh.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraySh.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/ArraySh.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="715" />
     <option name="y" value="24" />
@@ -21,7 +48,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="chapter_7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter_7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter_7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter_7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -45,6 +87,11 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration name="ArraySh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraySh" />
+      <module name="chapter_7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -68,6 +115,11 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ArraySh" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -84,6 +136,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="715" y="24" width="651" height="744" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.50958467" />
@@ -107,6 +160,15 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ArraySh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
