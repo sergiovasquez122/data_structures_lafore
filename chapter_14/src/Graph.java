@@ -32,6 +32,10 @@ public class Graph {
         return adjMat[v][w];
     }
 
+    public boolean hasPath(int v, int w){
+        return adjMat[v][w] < Double.POSITIVE_INFINITY;
+    }
+
     public Iterable<Integer> edgeTo(int v){
         Bag<Integer> bag = new Bag<>();
         for(int i = 0;i < V;++i) {
