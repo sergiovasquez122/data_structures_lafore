@@ -60,4 +60,17 @@ public class HashTable {
         return null;
     }
 
+    public int getPrime(int min){
+        for(int j = min + 1; true;j++)
+            if(isPrime(j)) return j;
+    }
+
+    private boolean isPrime(int n){
+        for(int j = 2;j * j <= n;++j){
+            if(n % j == 0){
+                return false;
+            }
+        }
+        return true;
+    }
 }
