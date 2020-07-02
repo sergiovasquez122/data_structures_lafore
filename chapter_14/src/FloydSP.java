@@ -22,4 +22,12 @@ public class FloydSP {
             }
         }
     }
+
+    public boolean hasPath(int v, int w){
+        return distTo[v][w] < Double.POSITIVE_INFINITY;
+    }
+
+    public double distTo(int v, int w){
+        return distTo[v][w];
+    }
 }
