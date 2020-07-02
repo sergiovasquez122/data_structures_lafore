@@ -31,7 +31,7 @@ public class TSP {
         } else {
             for(int i = begin;i < a.length;++i){
                 swap(a, begin, i);
-                permute(result, a, i + 1);
+                permute(result, a, begin + 1);
                 swap(a, begin, i);
             }
         }
