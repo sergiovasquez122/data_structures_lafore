@@ -73,4 +73,16 @@ public class HashTable {
         }
         return true;
     }
+
+    public void rehash(){
+        DataItem[] temp = new DataItem[getPrime(arraySize  * 2)];
+        DataItem[] orig = hashArray;
+        hashArray = temp;
+        arraySize = temp.length;
+        for(int i = 0;i < orig.length;++i){
+            if(temp[i] != null && temp[i].getKey() != -1){
+                insert(temp[i]);
+            }
+        }
+    }
 }
