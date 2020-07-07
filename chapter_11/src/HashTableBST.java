@@ -35,7 +35,20 @@ public class HashTableBST {
         return value == null ? -1 : value;
     }
 
-    private void resize(int cap){
+    public int remove(int key){
+        Integer value = table[hash(key)].get(key);
+        N--;
+        if(N > 0 && N == M / 4) resize(M / 2);
+        return value == null ? -1 : value;
+    }
 
+    private void resize(int cap){
+        HashTableBST temp = new HashTableBST(cap);
+        for(int i = 0;i < M;++i)
+            for(Integer key : table[i].keys())
+                temp.put(key, table[i].get(key));
+        this.M = temp.M;
+        this.N = temp.N;
+        this.table = temp.table;
     }
 }
