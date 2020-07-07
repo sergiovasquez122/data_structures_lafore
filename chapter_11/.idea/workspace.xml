@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3fd0903-3f04-4f66-9035-1eeda3ba7608" name="Default" comment="" />
+    <list default="true" id="a3fd0903-3f04-4f66-9035-1eeda3ba7608" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/HashTableBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTableBST.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HashTableChaining.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HashTableChaining.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HashTableChaining.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -66,6 +68,21 @@
                 <element signature="e#531#532#0" expanded="true" />
                 <element signature="e#796#797#0" expanded="true" />
                 <element signature="e#841#842#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashTableBST.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HashTableBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+              <folding>
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,6 +118,7 @@
         <option value="$PROJECT_DIR$/src/Chaining.java" />
         <option value="$PROJECT_DIR$/src/questions.md" />
         <option value="$PROJECT_DIR$/src/HashTableChaining.java" />
+        <option value="$PROJECT_DIR$/src/HashTableBST.java" />
       </list>
     </option>
   </component>
@@ -204,6 +222,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="715" y="24" width="651" height="744" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27635783" />
@@ -337,6 +356,19 @@
             <element signature="e#531#532#0" expanded="true" />
             <element signature="e#796#797#0" expanded="true" />
             <element signature="e#841#842#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashTableBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
           </folding>
         </state>
       </provider>

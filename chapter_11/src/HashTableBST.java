@@ -20,6 +20,21 @@ public class HashTableBST {
             table[i] = new RedBlackBST<>();
     }
 
+    public int hash(int key){
+        return (key & 0x7fffffff) % M;
+    }
 
+    public void put(int key, int value){
+        if(N == M) resize(2 * M);
 
+    }
+
+    public int get(int key){
+        Integer value = table[hash(key)].get(key);
+        return value == null ? -1 : value;
+    }
+
+    public void resize(int cap){
+
+    }
 }
