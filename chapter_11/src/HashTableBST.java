@@ -37,6 +37,7 @@ public class HashTableBST {
 
     public int remove(int key){
         Integer value = table[hash(key)].get(key);
+        table[hash(key)].get(key);
         N--;
         if(N > 0 && N == M / 4) resize(M / 2);
         return value == null ? -1 : value;
