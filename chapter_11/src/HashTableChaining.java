@@ -39,7 +39,15 @@ public class HashTableChaining {
         return st[hash(key)].get(key);
     }
 
+    public int remove(int key){
+        Integer value = st[hash(key)].get(key);
+        N--;
+        if(N > 0 && N == M / 4) resize(M / 2);
+        return value == null ? -1 : value;
+    }
+
     public void put(int key, int val){
+        if(N == M) resize(2 * M);
         st[hash(key)].put(key, val);
         N++;
     }
