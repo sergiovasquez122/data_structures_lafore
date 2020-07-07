@@ -49,4 +49,14 @@ public class LinearProbingHashST<Key, Value> {
                 return values[i];
         return null;
     }
+
+    public boolean contains(Key key){
+        for(int i = hash(key);keys[i] != null; i = (i + 1) % M){
+            if(keys[i].equals(key)){
+                return true;
+            }
+        }
+        return false;
+    }
+
 }
