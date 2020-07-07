@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4e14923-4734-43f7-a91d-744d4ece7150" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/TreeHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeHeap.java" afterDir="false" />
-    </list>
+    <list default="true" id="b4e14923-4734-43f7-a91d-744d4ece7150" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,8 +74,8 @@
       <file leaf-file-name="TreeHeap.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TreeHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="153" selection-start-line="153" selection-end-line="153" />
+            <state relative-caret-position="45">
+              <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
               <folding>
                 <element signature="e#145#146#0" expanded="true" />
                 <element signature="e#169#170#0" expanded="true" />
@@ -272,7 +270,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
+    <frame x="715" y="24" width="651" height="744" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32886904" />
@@ -280,9 +279,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007825" side_tool="true" weight="0.32886904" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3139881" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49921754" visible="true" weight="0.32886904" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49921754" visible="true" weight="0.3437014" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1228482" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29233226" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -413,8 +412,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TreeHeap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="153" selection-start-line="153" selection-end-line="153" />
+        <state relative-caret-position="45">
+          <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
             <element signature="e#169#170#0" expanded="true" />

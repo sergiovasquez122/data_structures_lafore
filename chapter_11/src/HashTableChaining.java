@@ -18,7 +18,11 @@ public class HashTableChaining {
     }
 
     public int hash(int key){
-        return key % M;
+        return (key & 0x7fffffff) % M;
+    }
+
+    private void resize(){
+
     }
 
     public int get(int key){
