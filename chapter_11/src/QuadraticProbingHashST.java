@@ -23,7 +23,18 @@ public class QuadraticProbingHashST<Key, Value> {
     }
 
     public void insert(Key key, Value value){
-
+        if(N >= M / 2) resize(M * 2);
+        int i;
+        int counter = 1;
+        for(i = hash(key);keys[i] != null;i = (i + counter * counter) % M, counter++){
+            if(key.equals(keys[i])){
+                values[i] = value;
+                return;
+            }
+        }
+        N++;
+        keys[i] = key;
+        values[i] = value;
     }
 
     public void delete(Key key){
