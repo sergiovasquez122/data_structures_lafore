@@ -1,17 +1,17 @@
 /**
  * Implement a Hash table that uses quadratic probing
  */
-public class QuadraticProbingHash<Key, Value> {
+public class QuadraticProbingHashST<Key, Value> {
     private int N;
     private int M;
     private Key[] keys;
     private Value[] values;
 
-    public QuadraticProbingHash(){
+    public QuadraticProbingHashST(){
         this(16);
     }
 
-    public QuadraticProbingHash(int M){
+    public QuadraticProbingHashST(int M){
         this.M = M;
         this.N = 0;
         keys = (Key[]) new Object[M];
@@ -24,6 +24,22 @@ public class QuadraticProbingHash<Key, Value> {
 
     public void insert(Key key, Value value){
 
+    }
+
+    public void delete(Key key){
+
+    }
+
+    public void resize(int cap){
+        QuadraticProbingHashST<Key, Value> temp = new QuadraticProbingHashST<>();
+        for(int i = 0;i < M;++i){
+            if(keys[i] != null){
+                temp.insert(keys[i], values[i]);
+            }
+        }
+        this.M = temp.M;
+        this.keys = temp.keys;
+        this.values = temp.values;
     }
 
     public Value get(Key key){
