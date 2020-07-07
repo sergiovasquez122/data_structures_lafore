@@ -30,6 +30,9 @@ public class HashTableChaining {
                 t.put(k, st[i].get(k));
             }
         }
+        this.st = t.st;
+        this.M = t.M;
+        this.N = t.N;
     }
 
     public int get(int key){
