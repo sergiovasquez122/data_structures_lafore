@@ -13,4 +13,22 @@ public class Chaining {
         }
     }
 
+    public int hashFunc(int key){
+        return key % arraySize;
+    }
+
+    public void insert(int data){
+        int hashVal = hashFunc(data);
+        table[hashVal].add(new DataItem(data));
+    }
+
+    public DataItem find(int key){
+        int hashval = hashFunc(key);
+        for(DataItem d : table[hashval]){
+            if(d.getKey() == key){
+                return d;
+            }
+        }
+        return null;
+    }
 }
