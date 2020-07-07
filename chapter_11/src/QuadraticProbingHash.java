@@ -8,7 +8,7 @@ public class QuadraticProbingHash<Key, Value> {
     private Value[] values;
 
     public QuadraticProbingHash(){
-        this(16)
+        this(16);
     }
 
     public QuadraticProbingHash(int M){
@@ -24,6 +24,16 @@ public class QuadraticProbingHash<Key, Value> {
 
     public void insert(Key key, Value value){
 
+    }
+
+    public Value get(Key key){
+        int counter = 1;
+        for(int i = hash(key);keys[i] != null;i = (i + counter * counter) % M, counter++){
+            if(key.equals(keys[i])){
+                return values[i];
+            }
+        }
+        return null;
     }
 
     public boolean contains(Key key){
