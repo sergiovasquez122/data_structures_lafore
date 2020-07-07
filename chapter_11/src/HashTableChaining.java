@@ -1,7 +1,5 @@
 import edu.princeton.cs.algs4.SequentialSearchST;
 
-import java.util.Hashtable;
-
 public class HashTableChaining {
 
     private int N;
