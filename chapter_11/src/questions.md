@@ -5,7 +5,7 @@
     2. keeping an open mind about which address to use
     3. probing at cell x + 1, x + 2, and so on until an empty cell is found
     4. looking for another location in the array when the one you want is occupied
-4. using the next available position after an unsuccessful probe is called __
+4. using the next position after an unsuccessful probe is called __
 5. what are the first five steps sizes in quadratic probing
 6. secondary clustering occurs because
     1. many keys hash to the same location
