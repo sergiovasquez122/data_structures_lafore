@@ -1,5 +1,7 @@
 import edu.princeton.cs.algs4.SequentialSearchST;
 
+import java.util.Hashtable;
+
 public class HashTableChaining {
 
     private int N;
@@ -21,8 +23,13 @@ public class HashTableChaining {
         return (key & 0x7fffffff) % M;
     }
 
-    private void resize(){
-
+    private void resize(int cap){
+        HashTableChaining t = new HashTableChaining(cap);
+        for(int i = 0;i < M;++i) {
+            for (int k : st[i].keys()){
+                t.put(k, st[i].get(k));
+            }
+        }
     }
 
     public int get(int key){
@@ -31,5 +38,6 @@ public class HashTableChaining {
 
     public void put(int key, int val){
         st[hash(key)].put(key, val);
+        N++;
     }
 }
