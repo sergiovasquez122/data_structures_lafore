@@ -25,8 +25,9 @@ public class HashTableBST {
     }
 
     public void put(int key, int value){
+        table[hash(key)].put(key, value);
+        N++;
         if(N == M) resize(2 * M);
-
     }
 
     public int get(int key){
@@ -34,7 +35,7 @@ public class HashTableBST {
         return value == null ? -1 : value;
     }
 
-    public void resize(int cap){
+    private void resize(int cap){
 
     }
 }
