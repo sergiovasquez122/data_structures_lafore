@@ -1,3 +1,8 @@
+/**
+ * Implement a linear probe table that stores strings
+ * (Note this implementation allows us to use any key
+ * that implements hashcode
+ */
 public class LinearProbingHashST<Key, Value> {
     private int N;
     private int M;
