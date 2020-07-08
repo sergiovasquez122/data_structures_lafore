@@ -1,3 +1,5 @@
+import edu.princeton.cs.algs4.StdRandom;
+
 public class ArrayIns {
     private long[] theArray;
     private int nElems;
@@ -19,6 +21,10 @@ public class ArrayIns {
         System.out.println();
     }
 
+    public void quicksort(){
+        recQuickSort(0, nElems - 1);
+    }
+
     public void recQuickSort(int left, int right){
         if(right - left <= 0)
             return;
@@ -33,7 +39,7 @@ public class ArrayIns {
 
     public int partitionit(int left, int right, long pivot){
         int leftPtr = left - 1;
-        int rightPtr = right + 1;
+        int rightPtr = right;
         while(true){
             while(theArray[++leftPtr] < pivot);
 
@@ -51,4 +57,19 @@ public class ArrayIns {
         theArray[i] = theArray[j];
         theArray[j] = temp;
     }
+
+    public static void main(String[] args) {
+        int maxSize = 16;
+        ArrayIns arr = new ArrayIns(maxSize);
+
+        for(int i = 0;i < maxSize;++i){
+            long n = StdRandom.uniform(100);
+            arr.insert(n);
+        }
+
+        arr.display();
+        arr.quicksort();
+        arr.display();
+    }
+
 }
