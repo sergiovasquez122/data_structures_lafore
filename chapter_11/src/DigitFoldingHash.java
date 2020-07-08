@@ -43,7 +43,11 @@ public class DigitFoldingHash<Key, Value> {
     }
 
     public boolean contains(Key key){
-
+        for(int i = hash(key);keys[i] != null; i = (i + 1) % M){
+            if(key.equals(keys[i]))
+                return true;
+        }
+        return false;
     }
 
     public int hash(Key key){
