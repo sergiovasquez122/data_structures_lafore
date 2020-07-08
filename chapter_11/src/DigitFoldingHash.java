@@ -82,6 +82,7 @@ public class DigitFoldingHash<Key, Value> {
     }
 
     public int hash(Key key){
+        int groupSize = keys.length;
         return 0;
     }
 }
