@@ -1,3 +1,5 @@
+import edu.princeton.cs.algs4.StdRandom;
+
 public class ArrayIns2 {
     private long[] theArray;
     private int nElems;
@@ -35,7 +37,19 @@ public class ArrayIns2 {
     }
 
     public long medianOf3(int left, int right){
-        return 0;
+        int center = (left + right) / 2;
+        if(theArray[left] > theArray[center])
+            swap(left, center);
+
+        if(theArray[left] > theArray[right])
+            swap(left, right);
+
+        if(theArray[center] > theArray[right])
+            swap(center, right);
+
+        swap(center, right - 1);
+        return theArray[right - 1];
+
     }
 
     public void swap(int i, int j){
@@ -65,7 +79,7 @@ public class ArrayIns2 {
         if(size <= 1)
             return;
         if(size == 2){
-            if(theArray[left] < theArray[right])
+            if(theArray[left] > theArray[right])
                 swap(left, right);
         } else {
             if(theArray[left] > theArray[right - 1])
@@ -75,5 +89,17 @@ public class ArrayIns2 {
             if(theArray[right - 1] > theArray[right])
                 swap(right - 1, right);
         }
+    }
+
+    public static void main(String[] args) {
+        int maxSize = 16;
+        ArrayIns2 arr = new ArrayIns2(maxSize);
+        for(int i = 0;i < maxSize;++i){
+            long value =  StdRandom.uniform(100);
+            arr.insert(value);
+        }
+        arr.display();
+        arr.quickSort();
+        arr.display();
     }
 }
