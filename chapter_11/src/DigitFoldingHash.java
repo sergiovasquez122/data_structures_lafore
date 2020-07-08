@@ -31,7 +31,17 @@ public class DigitFoldingHash<Key, Value> {
     }
 
     public void insert(Key key, Value value){
-
+        if(N == M / 2) resize(2 * M);
+        int i;
+        for(i = hash(key);keys[i] != null;i = (i + 1) % M){
+            if(key.equals(keys[i])){
+                values[i] = value;
+                return;
+            }
+        }
+        keys[i] = key;
+        values[i] = value;
+        N++;
     }
 
     public Value get(Key key){
@@ -56,6 +66,6 @@ public class DigitFoldingHash<Key, Value> {
     }
 
     public int hash(Key key){
-
+        return 0;
     }
 }
