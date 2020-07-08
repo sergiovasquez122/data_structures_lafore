@@ -18,6 +18,12 @@ public class KthSmallest {
         return 0;
     }
 
+    private static void swap(int arr[], int i, int j){
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+
     /**
      * Finds the kth smallest element in the array
      * @param arr a non-empty integer array
