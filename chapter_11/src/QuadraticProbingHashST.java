@@ -38,7 +38,26 @@ public class QuadraticProbingHashST<Key, Value> {
     }
 
     public void delete(Key key){
-
+        if(!contains(key)) return;
+        int i;
+        int counter = 1;
+        for(i = hash(key); !key.equals(keys[i]);i = (i + counter * counter) % M, counter++);
+        keys[i] = null;
+        values[i] = null;
+        counter++;
+        i = (i + counter * counter) % M;
+        while(keys[i] != null){
+            Key redoKey = keys[i];
+            Value redoValue = values[i];
+            keys[i] = null;
+            values[i] = null;
+            N--;
+            insert(redoKey, redoValue);
+            counter++;
+            i = (i + counter * counter) % M;
+        }
+        N--;
+        if(N > 0 && N == M / 8)resize(M / 2);
     }
 
     public void resize(int cap){
