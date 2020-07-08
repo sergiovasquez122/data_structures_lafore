@@ -21,17 +21,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayPar.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArrayPar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArrayPar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+            <state relative-caret-position="135">
+              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
               <folding>
                 <element signature="e#203#204#0" expanded="true" />
                 <element signature="e#245#246#0" expanded="true" />
                 <element signature="e#273#274#0" expanded="true" />
                 <element signature="e#298#299#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayIns.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArrayIns.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -64,6 +73,8 @@
         <option value="$PROJECT_DIR$/src/Partition.java" />
         <option value="$PROJECT_DIR$/src/Questions.md" />
         <option value="$PROJECT_DIR$/src/ArrayPar.java" />
+        <option value="$PROJECT_DIR$/src/quickSort1.java" />
+        <option value="$PROJECT_DIR$/src/ArrayIns.java" />
       </list>
     </option>
   </component>
@@ -185,9 +196,9 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32868218" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32868218" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32868218" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32868218" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -283,14 +294,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArrayPar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+        <state relative-caret-position="135">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
           <folding>
             <element signature="e#203#204#0" expanded="true" />
             <element signature="e#245#246#0" expanded="true" />
             <element signature="e#273#274#0" expanded="true" />
             <element signature="e#298#299#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayIns.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
