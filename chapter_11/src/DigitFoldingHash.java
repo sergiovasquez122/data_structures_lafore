@@ -31,7 +31,7 @@ public class DigitFoldingHash<Key, Value> {
     }
 
     public void insert(Key key, Value value){
-        if(N == M / 2) resize(2 * M);
+        if(N >= M / 2) resize(2 * M);
         int i;
         for(i = hash(key);keys[i] != null;i = (i + 1) % M){
             if(key.equals(keys[i])){
@@ -54,7 +54,23 @@ public class DigitFoldingHash<Key, Value> {
     }
 
     public void delete(Key key){
-
+        if(!contains(key)) return;
+        int i;
+        for(i = hash(key);!key.equals(keys[i]);i = (i + 1) % M);
+        keys[i] = null;
+        values[i] = null;
+        i = (i + 1) % M;
+        while(keys[i] != null){
+            Key redoKey = keys[i];
+            Value redoValue = values[i];
+            keys[i] = null;
+            values[i] = null;
+            N--;
+            insert(redoKey, redoValue);
+            i = (i + 1 % M);
+        }
+        N--;
+        if(N > 0 && N == M / 8) resize(M / 2);
     }
 
     public boolean contains(Key key){
