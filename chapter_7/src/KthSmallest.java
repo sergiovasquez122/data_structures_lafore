@@ -1,3 +1,5 @@
+import edu.princeton.cs.algs4.StdRandom;
+
 /**
  * Implement a program to find the kth smallest element
  * in an array
@@ -23,7 +25,7 @@ public class KthSmallest {
                 swap(arr, i, new_pivot_idx++);
             }
         }
-        swap(arr, pivot_idx, right);
+        swap(arr,new_pivot_idx, right);
         return new_pivot_idx;
     }
 
@@ -40,10 +42,31 @@ public class KthSmallest {
      * @return the number that would be the kth smallest if the array was sorted
      */
     public static int kthSmallest(int arr[], int k){
-        return 0;
+        int left = 0, right = arr.length - 1;
+        k--;
+        while(left <= right){
+            int pivot_idx = StdRandom.uniform(left, right + 1);
+            int new_pivot_idx = partition(arr, left, right, pivot_idx);
+            if(new_pivot_idx < k){
+                left = new_pivot_idx + 1;
+            } else if(new_pivot_idx > k){
+                right = new_pivot_idx - 1;
+            } else {
+                return arr[new_pivot_idx];
+            }
+        }
+        return -1;
     }
 
     public static void main(String[] args) {
-
+        int arr[] = {9, 8, 7, 6, 5, 4, 3, 2, 1};
+        // will print sorted array
+        for(int i = 0;i < 100;++i){
+            for(int k = 1;k <= arr.length;++k){
+                int kth = KthSmallest.kthSmallest(arr, k);
+                System.out.print(kth + " ");
+            }
+            System.out.println();
+        }
     }
 }

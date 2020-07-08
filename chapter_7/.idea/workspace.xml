@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="447ba33b-f594-4fda-aa43-7e6886d18a65" name="Default" comment="" />
+    <list default="true" id="447ba33b-f594-4fda-aa43-7e6886d18a65" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/KthSmallest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KthSmallest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -101,12 +103,8 @@
       <file leaf-file-name="KthSmallest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/KthSmallest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-              <folding>
-                <element signature="e#163#164#0" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -148,11 +146,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="715" />
-    <option name="y" value="24" />
-    <option name="width" value="651" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="325" />
+    <option name="y" value="3" />
+    <option name="width" value="653" />
+    <option name="height" value="766" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -198,12 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MedianFinding">
-    <configuration name="ArrayIns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayIns" />
-      <module name="chapter_7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="Application.KthSmallest">
     <configuration name="ArrayIns2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayIns2" />
       <module name="chapter_7" />
@@ -216,6 +209,11 @@
     </configuration>
     <configuration name="ArrayPar2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayPar2" />
+      <module name="chapter_7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="KthSmallest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KthSmallest" />
       <module name="chapter_7" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -249,18 +247,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ArrayPar" />
-      <item itemvalue="Application.ArrayIns" />
       <item itemvalue="Application.ArrayIns2" />
       <item itemvalue="Application.ArrayPar2" />
       <item itemvalue="Application.MedianFinding" />
+      <item itemvalue="Application.KthSmallest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KthSmallest" />
         <item itemvalue="Application.MedianFinding" />
         <item itemvalue="Application.ArrayIns2" />
         <item itemvalue="Application.ArrayPar2" />
         <item itemvalue="Application.ArrayPar" />
-        <item itemvalue="Application.ArrayIns" />
       </list>
     </recent_temporary>
   </component>
@@ -278,19 +276,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="715" y="24" width="651" height="744" extended-state="4" />
+    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16453674" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08059468" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32886904" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31603774" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31547618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3281493" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3139881" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42015505" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -453,12 +451,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/KthSmallest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
         </state>
       </provider>
     </entry>
