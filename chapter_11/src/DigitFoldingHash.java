@@ -34,8 +34,13 @@ public class DigitFoldingHash<Key, Value> {
 
     }
 
-    public Value get(Key Key){
-
+    public Value get(Key key){
+        for(int i = hash(key);keys[i] != null;i = (i + 1) % M){
+            if(key.equals(keys[i])){
+                return values[i];
+            }
+        }
+        return null;
     }
 
     public void delete(Key key){
