@@ -83,6 +83,20 @@ public class DigitFoldingHash<Key, Value> {
 
     public int hash(Key key){
         int groupSize = keys.length;
-        return 0;
+        int sum = 0;
+        String keyString = Integer.toString(key.hashCode());
+        int i;
+        for(i = 0;i < keyString.length();i += groupSize){
+            if(i + groupSize <= keyString.length()){
+                String group = keyString.substring(i, i + groupSize);
+                sum += Integer.parseInt(group);
+            }
+        }
+
+        if(i < keyString.length()){
+            String group = keyString.substring(i);
+            sum += Integer.parseInt(group);
+        }
+        return sum % M;
     }
 }
