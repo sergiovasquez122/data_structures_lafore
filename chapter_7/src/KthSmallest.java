@@ -15,7 +15,16 @@ public class KthSmallest {
      * @return the new pivot idx
      */
     private static int partition(int arr[], int left, int right, int pivot_idx){
-        return 0;
+        int pivot_value = arr[pivot_idx];
+        int new_pivot_idx = left;
+        swap(arr, pivot_idx, right);
+        for(int i = left;i < right;++i){
+            if(arr[i] < pivot_value){
+                swap(arr, i, new_pivot_idx++);
+            }
+        }
+        swap(arr, pivot_idx, right);
+        return new_pivot_idx;
     }
 
     private static void swap(int arr[], int i, int j){
