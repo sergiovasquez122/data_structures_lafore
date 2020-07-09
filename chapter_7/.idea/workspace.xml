@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447ba33b-f594-4fda-aa43-7e6886d18a65" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/KthSmallest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KthSmallest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MedianFinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MedianFinding.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,20 +91,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MedianFinding.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MedianFinding.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MedianFinding.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+            <state relative-caret-position="315">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KthSmallest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KthSmallest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/KthSmallest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+            <state relative-caret-position="157">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -141,8 +141,8 @@
         <option value="$PROJECT_DIR$/src/ArrayPar.java" />
         <option value="$PROJECT_DIR$/src/ArrayPar2.java" />
         <option value="$PROJECT_DIR$/src/ArrayIns2.java" />
-        <option value="$PROJECT_DIR$/src/MedianFinding.java" />
         <option value="$PROJECT_DIR$/src/KthSmallest.java" />
+        <option value="$PROJECT_DIR$/src/MedianFinding.java" />
       </list>
     </option>
   </component>
@@ -196,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KthSmallest">
+  <component name="RunManager" selected="Application.MedianFinding">
     <configuration name="ArrayIns2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayIns2" />
       <module name="chapter_7" />
@@ -254,8 +254,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KthSmallest" />
         <item itemvalue="Application.MedianFinding" />
+        <item itemvalue="Application.KthSmallest" />
         <item itemvalue="Application.ArrayIns2" />
         <item itemvalue="Application.ArrayPar2" />
         <item itemvalue="Application.ArrayPar" />
@@ -280,15 +280,15 @@
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08059468" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08059468" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32886904" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31547618" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31547618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3139881" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3139881" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42015505" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -442,17 +442,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MedianFinding.java">
+    <entry file="file://$PROJECT_DIR$/src/KthSmallest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        <state relative-caret-position="157">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KthSmallest.java">
+    <entry file="file://$PROJECT_DIR$/src/MedianFinding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        <state relative-caret-position="315">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
         </state>
       </provider>
     </entry>
